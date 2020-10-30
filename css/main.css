@@ -1,0 +1,634 @@
+@font-face {
+
+  font-family: MarkPro ;
+  src: url('../fonts/MarkPro.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: MarkProBold ;
+  src: url('../fonts/MarkProBold.ttf') format('truetype');
+  font-weight: bold;
+
+}
+
+body {
+  
+  /* background-image: linear-gradient(to left, #92278f , #40a1ce 70%); */
+  background-image: linear-gradient(to right, #0091c6 85%, #be98bb 15%);
+  overflow-x: hidden !important;
+  position: relative;
+  max-height: 50vh;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+}
+
+.nav-item {
+  font-size: 17px !important;
+  font-family: MarkPro !important;
+}
+.nav-link {
+  font-size: 15px !important;
+}
+
+
+.nav-item svg:hover {
+  fill: #fff !important;
+}
+
+.main {
+
+  -webkit-backdrop-filter: blur(50px);
+  backdrop-filter: blur(50px);
+  background-color: rgba(0, 145, 198, 0.04);
+}
+
+
+.navbar {
+  padding: .5rem 0rem 2.5rem 0 !important;
+  border-bottom: 1px solid #000000;
+
+}
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.155em !important;
+  vertical-align: 0.155em !important;
+}
+.move-image {
+  position: absolute;
+  top: 160px;
+  left: 41%;
+
+  opacity: 0.5;
+}
+
+:root {
+  --mouseX: 70%;
+  --mouseY: 20%;
+}
+.blur {
+ 
+  filter: blur(63px);
+  background-color: rgba(0, 145, 198, 0.2);
+
+  min-height: 100vh;
+
+  position: relative;
+
+ 
+}
+.blur .circles {
+  width: 70%;
+  position: absolute;
+  right: 0%;
+}
+
+.blur .circles .second-circle{
+  
+  position: absolute;
+  top: 10%;
+  right: 25%;
+
+}
+
+
+
+.holder {
+  position: absolute;
+  top: 0%;
+  padding: 35px 45px;
+
+}
+
+.navigation .telephone {
+  font-family: Gotham;
+  font-size: 27px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.09px;
+  color: #000000;
+}
+
+.navigation .cabinet
+{
+  width: 194.4px;
+  height: 44px;
+  border-radius: 38px;
+  border: solid 1px #000000;
+  text-align: center;
+  transition: ease 0.5s;
+}
+
+.cabinet:hover {
+  border: 1px solid #fff;
+}
+
+.navigation .cabinet a
+{
+  font-family: MarkPro;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.35px;
+  color: #000000 !important;
+}
+
+.holder .heading h1 {
+  font-family: MarkPro;
+  font-size: 80px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.95;
+  letter-spacing: -0.5px;
+  color: #000000;
+}
+
+.holder .body .services h2{
+  
+  font-family: MarkPro;
+  font-size: 25px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: -0.11px;
+  color: #ffffff;
+}
+.holder .body .services h3
+{
+  width: 158.5px;
+  height: 34px;
+  font-family: MarkPro;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -0.48px;
+  color: #000000;
+}
+
+/* .aply {
+  transition: ease-in 1s;
+} */
+
+.body .maliye {
+  margin-bottom: 5rem;
+  margin-top: 3rem;
+}
+
+.aply .aply-bottom {
+  height: 45px;
+}
+
+ .aply-border-bottom {
+  width: 250px;
+  height: 1px;
+  border: solid 1px #000000;
+  margin-top: 45px;
+
+}
+
+.services {
+  width: 345px;
+  border-right: 2px solid #000000;
+  height: 505px;
+
+
+}
+
+.main-services {
+  
+
+  position: relative;
+ 
+
+}
+
+.main-services .header{
+  
+
+  margin-top: -13px;
+ 
+
+}
+
+
+.main-services-bg {
+  right: -110px;
+  top: 2%;
+  border-top-left-radius: 35px;
+  width: 100%;
+  height: 812px;
+  opacity: 0.97;
+  -webkit-backdrop-filter: blur(22px);
+  backdrop-filter: blur(22px);
+  background-color: rgba(200, 231, 250, 0.18);
+  transition: ease 1s;
+}
+
+
+.products-bg {
+  -webkit-backdrop-filter: blur(22px);
+  backdrop-filter: blur(22px);
+  background-color: rgba(200, 231, 250, 0.53);
+  right: -50px;
+  top: -43%;
+  position: relative;
+  border-top-left-radius: 35px;
+  width: 100%;
+  height: 812px;
+  transition: ease 1s;
+}
+
+
+.s-main-services-bg {
+  right: -110px;
+  top: 3%;
+  border-top-left-radius: 35px;
+  width: 100%;
+  height: 812px;
+  opacity: 0.97;
+  -webkit-backdrop-filter: blur(22px);
+  backdrop-filter: blur(22px);
+  background-color: rgba(200, 231, 250, 0.18);
+  transition: ease 1s;
+}
+
+
+.s-products-bg {
+  -webkit-backdrop-filter: blur(22px);
+  backdrop-filter: blur(22px);
+  background-color: rgba(200, 231, 250, 0.53);
+  right: -50px;
+  top: -35%;
+  position: relative;
+  border-top-left-radius: 35px;
+  width: 100%;
+  height: 812px;
+  transition: ease 1s;
+}
+
+
+.s-main-services-bg-2 {
+  right: -110px;
+  top: 1%;
+  border-top-left-radius: 35px;
+  width: 100%;
+  height: 812px;
+  opacity: 0.97;
+  -webkit-backdrop-filter: blur(22px);
+  backdrop-filter: blur(22px);
+  background-color: rgba(200, 231, 250, 0.18);
+  transition: ease 1s;
+}
+
+
+.s-products-bg-2 {
+  -webkit-backdrop-filter: blur(22px);
+  backdrop-filter: blur(22px);
+  background-color: rgba(200, 231, 250, 0.53);
+  right: -50px;
+  top: -36.5%;
+  position: relative;
+  border-top-left-radius: 35px;
+  width: 100%;
+  height: 812px;
+  transition: ease 1s;
+}
+
+
+.main-services-2 {
+  
+  -webkit-backdrop-filter: blur(22px);
+  backdrop-filter: blur(22px);
+  background-color: rgba(200, 231, 250, 0.53);
+  right: -45px;
+  top: 5%;
+  position: relative;
+  border-top-left-radius: 35px;
+  width: 100%;
+  height: 812px;
+  transition: ease 1s;
+  z-index: 50;
+
+}
+
+
+.products-2 {
+  right: -110px;
+  top: -49%;
+  position: relative;
+  border-top-left-radius: 35px;
+  width: 100%;
+  height: 812px;
+  opacity: 0.97;
+  -webkit-backdrop-filter: blur(22px);
+  backdrop-filter: blur(22px);
+  background-color: rgba(200, 231, 250, 0.18);
+  transition: ease 1s;
+  z-index: 0;
+}
+
+
+
+.main-services .vawe {
+  position: absolute;
+    right: 64px;
+    top: -73px;
+}
+
+.products {
+ position: relative;
+}
+
+
+
+
+
+.products .vawe {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.main-services .header .circle{
+  width: 12px;
+  height: 12px;
+  opacity: 0.36;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.main-services .header h1 {
+  object-fit: contain;
+  opacity: 0.32;
+  font-family: MarkPro;
+  font-size: 35px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.22px;
+  color: #ffffff;
+}
+
+.main-services .header .header-right a {
+  
+  font-family: MarkPro;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: -0.43px;
+  
+  margin-left: -250px;
+  display: block;
+  color: #000000 !important;
+}
+
+
+/* */
+
+
+.products .header .circle{
+  width: 26.4px;
+  height: 26.4px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.products .header h1 {
+  object-fit: contain;
+  font-family: MarkPro;
+  font-size: 50px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.32px;
+  color: #ffffff;
+}
+
+.products .header .header-right a {
+
+
+  font-family: MarkPro;
+  font-size: 19px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.84;
+  letter-spacing: -0.08px;
+  color: #000000 !important;
+  margin-left: -250px;
+}
+
+.products .body .credits
+{
+  
+}
+ .istehlak{
+ 
+  
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background-image: linear-gradient(to left, rgba(254, 244, 218, 0.9) , rgba(202, 207, 246, 0.82));
+}
+
+
+ .lombard
+{
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background-image: linear-gradient(to left, rgba(164, 217, 248, 0.86), rgba(240, 251, 255, 0.85));
+}
+
+ .cart
+{
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background-image: linear-gradient(to left, rgba(143, 203, 225, 0.87) , rgba(173, 232, 202, 0.9) )
+}
+
+.body .credits h6 {
+  font-family: MarkPro;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.35px;
+  color: #9d9d9d;
+}
+.body .credits h5
+{
+  font-family: MarkPro;
+  font-size: 34px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.03;
+  letter-spacing: -0.15px;
+  color: #000000;
+}
+.body .credits  span
+{
+  object-fit: contain;
+  font-family: MarkPro;
+  font-size: 76px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -4.89px;
+  color: rgba(0, 145, 198, 0.08);
+  margin-top: 35px;
+  margin-right: -35px;
+}
+
+.body .credits h2 {
+  
+  object-fit: contain;
+  font-family: MarkPro;
+  font-size: 173px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -11.13px;
+  color: rgba(0, 145, 198, 0.08);
+ 
+}
+
+.body .credits .percent {
+ 
+  height: 155px;
+}
+
+.body .titles {
+  margin-top: 30px;
+  margin-left: 25px;
+}
+
+.body .credit-bottom
+{
+  width: 80%;
+    margin: 0 auto;
+}
+
+.body .credit-bottom p
+{
+  width: 319px;
+  height: 57px;
+  font-family: MarkPro;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.26px;
+  color: #4c4c4c;
+}
+
+
+.discount .discount-body {
+  
+  
+  object-fit: contain;
+  background-image: linear-gradient(229deg, rgba(254, 244, 218, 0.05) 90%, rgba(202, 207, 246, 0.08) 13%);
+  height: 170px;
+
+}
+
+
+
+
+.discount .discount-body h6
+{
+  font-family: MarkPro;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+
+  color: #ffffff;
+}
+
+.discount .discount-body h4 {
+  font-family: MarkPro;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -0.8px;
+  color: #ffffff;
+
+}
+
+.discount .discount-body p 
+{
+  font-family: MarkPro;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  color: #000000;
+
+}
+
+.all-discounts {
+  margin-top: -60px;
+}
+
+
+
+.advantage .advantage-circle {
+  width: 85.1px;
+  height: 85.1px;
+  opacity: 0.46;
+  background-image: linear-gradient(#fff8e6 , #d0e8f6 );
+  border-radius: 100%;
+}
+
+.advantage .advantage-text h3
+{
+  width: 234px;
+
+  height: 80px;
+  font-family: MarkPro;
+  font-size: 26px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.91px;
+  color: #000000;
+}
+
+.advantage .advantage-text p
+{
+  width: 235px;
+  height: 92px;
+  font-family: MarkPro;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.32px;
+  color: #000000;
+}

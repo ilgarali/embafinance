@@ -1,0 +1,382 @@
+@font-face {
+
+    font-family: MarkPro ;
+    src: url('../fonts/MarkPro.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: MarkProBold ;
+    src: url('../fonts/MarkProBold.ttf') format('truetype');
+    font-weight: bold;
+  
+  }
+* {
+  overflow: hidden;
+}
+
+.nav-item {
+    font-size: 17px !important;
+    font-family: MarkPro !important;
+    color: #fff !important;
+  }
+  .nav-link {
+    font-size: 15px !important;
+    color: #fff !important;
+  }
+
+  .dropdown-toggle {
+    font-size: 15px !important;
+    color: #fff !important;
+  }
+
+  
+   
+  .nav-item svg:hover {
+    fill: #fff !important;
+  }
+  
+  .main {
+  
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    background-color: rgba(0, 145, 198, 0.04);
+  }
+  
+  
+
+  .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.155em !important;
+    vertical-align: 0.155em !important;
+  }
+/* 
+  .blur {
+ 
+    filter: blur(63px);
+    background-color: rgba(0, 145, 198, 0.2);
+    min-height: 100vh;
+    position: relative;
+  
+   
+  } */
+
+
+
+  .holder {
+ 
+    background-image: linear-gradient(to right, #0091c6 97%, #be98bb 3%);
+    height: 100vh;
+
+    
+  }
+
+  .navigation {
+    width: 93%;
+    margin: 0 auto;
+  }
+
+  .navigation .cabinet
+{
+  width: 194.4px;
+  height: 44px;
+  border-radius: 38px;
+  border: solid 1px #fff;
+  text-align: center;
+  transition: ease 0.5s;
+}
+
+.cabinet:hover {
+  border: 1px solid #000;
+}
+
+
+
+.circle {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+}
+
+.circle-1 {
+  position: absolute;
+  right: 7%;
+  top: 0%;
+}
+
+.circle-2 {
+  position: absolute;
+  right: 12%;
+  top: 10%;
+}
+
+.services {
+  
+  width: 90%;
+  height: 800px;
+  margin: 60px auto 0 auto;
+
+  border-radius: 49px;
+  -webkit-backdrop-filter: blur(22px);
+  backdrop-filter: blur(22px);
+  background-color: rgba(160, 201, 225, .26);
+}
+
+.services h2 {
+  -webkit-filter: blur(0.5px);
+  filter: blur(0.5px);
+  font-family: MarkPro;
+  font-size: 30px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.85px;
+  color: #a0c9e1;
+}
+.services h3
+{
+  font-family: MarkPro;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: -0.43px;
+  color: #abd5ac;
+}
+
+hr {
+  background-color: rgba(255, 255, 255, 0.38);
+}
+
+.contact h5 {
+  font-family: MarkPro;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.62;
+  letter-spacing: -0.19px;
+  color: rgba(255, 255, 255, 0.55);
+
+}
+
+i {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.kredit {
+  border-radius: 49px;
+  -webkit-backdrop-filter: blur(22px);
+  backdrop-filter: blur(22px);
+  background-color: rgba(160, 201, 225, 0.26);
+  height: 40vh;
+  margin-top: 50px;
+  width: 93%;
+
+
+}
+
+.kredit h5 {
+  -webkit-filter: blur(0.5px);
+  filter: blur(0.5px);
+  font-family: MarkPro;
+  font-size: 30px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.85px;
+  color: #a0c9e1;
+}
+
+.kredit h2
+{
+  width: 622px;
+  height: 100px;
+  -webkit-filter: blur(0.6px);
+  filter: blur(0.6px);
+  text-shadow: 0 9px 7px rgba(0, 98, 134, 0.44);
+  font-family: MarkPro;
+  font-size: 47px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.06;
+  letter-spacing: -1.34px;
+  color: #ffffff;
+}
+
+.kredit .apply {
+  width: 187px;
+  height: 41px;
+  border-radius: 20.5px;
+  background-color: rgba(171, 213, 172, 0.56);
+  font-family: MarkPro;
+  font-size: 15px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.64px;
+  color: #ffffff;
+}
+
+.kredit .kredit-left {
+  padding: 50px 0 0 70px;
+}
+
+
+
+.main-services {
+  
+
+  position: relative;
+ 
+
+}
+
+.main-services .header{
+  
+
+  margin-top: -13px;
+ 
+
+}
+
+
+.main-services-bg {
+
+  top: 1%;
+  right: -4%;
+  border-top-left-radius: 35px;
+  width: 100%;
+  height: 812px;
+  opacity: 0.97;
+  -webkit-backdrop-filter: blur(22px);
+  backdrop-filter: blur(22px);
+  background-color: rgba(200, 231, 250, 0.18);
+  transition: ease 1s;
+}
+
+
+.products-bg {
+  -webkit-backdrop-filter: blur(22px);
+  backdrop-filter: blur(22px);
+  background-color: rgba(200, 231, 250, 0.53);
+
+  top: -33%;
+  right: -2%;
+  position: relative;
+  border-top-left-radius: 35px;
+  width: 100%;
+  height: 812px;
+  transition: ease 1s;
+}
+
+.products .vawe {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.main-services .header .circle{
+  width: 12px;
+  height: 12px;
+  opacity: 0.36;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.main-services .header h1 {
+  object-fit: contain;
+  opacity: 0.32;
+  font-family: MarkPro;
+  font-size: 35px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.22px;
+  color: #ffffff;
+}
+
+.main-services .header .header-right a {
+  
+  font-family: MarkPro;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: -0.43px;
+  
+  margin-left: -250px;
+  display: block;
+  color: #000000 !important;
+}
+
+
+/* */
+
+
+.products .header .circle{
+  width: 26.4px;
+  height: 26.4px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.products .header h1 {
+  object-fit: contain;
+  font-family: MarkPro;
+  font-size: 50px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.32px;
+  color: #ffffff;
+}
+
+.products .header .header-right a {
+
+
+  font-family: MarkPro;
+  font-size: 19px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.84;
+  letter-spacing: -0.08px;
+  color: #000000 !important;
+  margin-left: -250px;
+}
+.istehlak{
+ 
+  width: 384px;
+  height: 241px;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background-image: linear-gradient(to left, rgba(254, 244, 218, 0.9) , rgba(202, 207, 246, 0.82));
+}
+
+
+ .lombard
+{
+  width: 384px;
+  height: 241px;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background-image: linear-gradient(to left, rgba(164, 217, 248, 0.86), rgba(240, 251, 255, 0.85));
+}
+
+ .cart
+{
+  width: 384px;
+  height: 241px;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background-image: linear-gradient(to left, rgba(143, 203, 225, 0.87) , rgba(173, 232, 202, 0.9) )
+}
+
