@@ -5,29 +5,47 @@
   }
   
   @font-face {
-    font-family: MarkProBold ;
+    font-family: MarkProBold;
     src: url('../fonts/MarkProBold.ttf') format('truetype');
-    font-weight: bold;
+    
   
   }
 
+    
+  @font-face {
+    font-family: MarkProHeavy;
+    src: url('../fonts/MarkPro-Heavy.ttf') format('truetype');
+    
+  
+  }
+
+
+
+.navbar {
+  margin-bottom: -40px;
+  margin-top: 25px;
+}
 
 .nav-item {
     font-size: 17px !important;
     font-family: MarkPro !important;
-    color: #fff !important;
+    color: #000 !important;
   }
   .nav-link {
-    font-size: 15px !important;
-    color: #fff !important;
+    font-size: 14px !important;
+    color: #000 !important;
+    text-transform: none !important;
   }
 
   .dropdown-toggle {
     font-size: 15px !important;
-    color: #fff !important;
+    color: #000 !important;
   }
 
-  
+  .navbar-nav {
+    margin-right: -40px;
+
+  }
    
   .nav-item svg:hover {
     fill: #fff !important;
@@ -58,12 +76,18 @@
    
   } */
 
-
+body {
+  background-image: linear-gradient(to right, #0091c6 99%, #be98bb 1%);
+  height: 100vh;
+  overflow-y: hidden;
+  
+}
 
   .holder {
  
-    background-image: linear-gradient(to right, #0091c6 97%, #be98bb 3%);
-    height: 150vh;
+    background: linear-gradient(90deg, rgba(0,145,198,1) 0%, rgba(190,152,187,0.9) 100%, rgba(0,0,0,1) 1%);
+
+    height: 105vh;
     overflow: hidden;
     
   }
@@ -71,23 +95,43 @@
   .navigation {
     width: 93%;
     margin: 0 auto;
+  
+
+  }
+
+  .navbar-collapse {
+    margin-right: -35px;
   }
 
   .navigation .cabinet
 {
-  width: 194.4px;
-  height: 44px;
+  width: 154px;
+  height: 40px;
   border-radius: 38px;
-  border: solid 1px #fff;
+  border: solid 1px #000;
   text-align: center;
   transition: ease 0.5s;
 }
 
-.cabinet:hover {
-  border: 1px solid #000;
+.cabinet:hover  {
+  border: 1px solid #fff;
+  background-color: #fff;
+  
+}
+.cabinet:hover a {
+  color: #000 !important;
+}
+
+.body {
+  width: 92%;
 }
 
 
+.top-svg {
+  position: absolute;
+  left: 2.55%;
+  top: 79px;
+}
 
 .circle {
   position: absolute;
@@ -109,14 +153,17 @@
 
 .services {
   
-  width: 90%;
+  width: 85%;
   height: 800px;
   margin: 60px auto 0 auto;
 
-  border-radius: 49px;
+  border-bottom-left-radius: 49px;
+  border-bottom-right-radius: 49px;
+  border-top-right-radius: 49px;
   -webkit-backdrop-filter: blur(22px);
   backdrop-filter: blur(22px);
   background-color: rgba(160, 201, 225, .26);
+
 }
 
 .services h2 {
@@ -129,10 +176,15 @@
   font-style: normal;
   line-height: 1.67;
   letter-spacing: -0.85px;
-  color: #a0c9e1;
+  color: #000;
 }
-.services h3
+
+.aply-bottom {
+  height: 30px;
+}
+.services .aply-bottom  a
 {
+  width: 158.5px;
   font-family: MarkPro;
   font-size: 15px;
   font-weight: bold;
@@ -140,11 +192,27 @@
   font-style: normal;
   line-height: 1.13;
   letter-spacing: -0.43px;
-  color: #abd5ac;
+  color: #000;
+  display: block;
+  cursor: pointer;
+  transition: ease 0.7s;
+
+}
+
+.services .aply-bottom a:hover {
+  color: #fff;
+}
+
+.services .aply path{
+  transition: ease 0.8s;
+}
+.services .aply:hover path{
+  fill: #ffffff;
+ 
 }
 
 hr {
-  background-color: rgba(255, 255, 255, 0.38);
+  background-color:rgba(0, 0, 0, 0.38);
 }
 
 .contact h5 {
@@ -153,63 +221,66 @@ hr {
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
-  line-height: 2.62;
+  /* line-height: 2.62; */
   letter-spacing: -0.19px;
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(0, 0, 0, 0.55);
 
 }
 
 i {
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(0, 0, 0, 0.55);
 }
 
 .kredit {
-  border-radius: 49px;
+  border-top-left-radius: 49px;
+  border-bottom-right-radius: 49px;
+  border-top-right-radius: 49px;
   -webkit-backdrop-filter: blur(22px);
   backdrop-filter: blur(22px);
   background-color: rgba(160, 201, 225, 0.26);
-  height: 18%;
-  margin-top: 50px;
-  width: 93%;
+  height: 25.5%;
+  margin-top: 55px;
+  width: 97%;
 
 
 }
 
 .kredit h5 {
-  -webkit-filter: blur(0.5px);
+    -webkit-filter: blur(0.5px);
   filter: blur(0.5px);
   font-family: MarkPro;
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.67;
-  letter-spacing: -0.85px;
-  color: #a0c9e1;
+  line-height: 1.92;
+  letter-spacing: -0.74px;
+  color: rgba(0, 0, 0, 0.43);
 }
 
 .kredit h2
 {
-  width: 622px;
-  height: 100px;
+  width: 80%;
+
   -webkit-filter: blur(0.6px);
   filter: blur(0.6px);
   text-shadow: 0 9px 7px rgba(0, 98, 134, 0.44);
-  font-family: MarkPro;
+  font-family: MarkProHeavy;
   font-size: 47px;
   font-weight: 900;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.06;
   letter-spacing: -1.34px;
-  color: #ffffff;
+  color: #000000;
 }
 
 .kredit .apply {
   width: 187px;
   height: 41px;
   border-radius: 20.5px;
-  background-color: rgba(171, 213, 172, 0.56);
+  background-color: transparent;
+  border: 1px solid #000;
   font-family: MarkPro;
   font-size: 15px;
   font-weight: 900;
@@ -217,11 +288,44 @@ i {
   font-style: normal;
   line-height: normal;
   letter-spacing: -0.64px;
-  color: #ffffff;
+  color: #000;
+  transition: ease 0.8s;
+}
+
+.kredit .apply:hover {
+  background-color: #26d8a0;
 }
 
 .kredit .kredit-left {
-  padding: 50px 0 0 70px;
+  padding: 50px 0 0 99px;
+}
+.kredit .kredit-right {
+  position: relative;
+}
+
+.kredit .kredit-right .oval-1{
+  position: absolute;
+  top: 250px;
+  left: -100px;
+}
+
+.kredit .kredit-right .oval-2 {
+  position: absolute;
+
+  top: 14px;
+  right: 50px;
+}
+
+.kredit .kredit-right .oval-3 {
+  right: -96px;
+  top: 130px;
+
+  position: absolute;
+}
+
+.kredit .kredit-right .pay {
+  margin-top: 70px;
+  margin-left: -75px;
 }
 
 
@@ -245,31 +349,87 @@ i {
 
 .main-services-bg {
 
-  top: 17px;
-  right: -4%;
+  top: -1%;
+  right: -3%;
   border-top-left-radius: 35px;
   width: 100%;
-  height: 812px;
+  height: 452px;
   opacity: 0.97;
   -webkit-backdrop-filter: blur(22px);
   backdrop-filter: blur(22px);
   background-color: rgba(200, 231, 250, 0.18);
-  transition: ease 1s;
+  animation: main-services-bg .7s ;
+  /* transition: linear 1s; */
 }
-
-
-.products-bg {
+.product-bg {
   -webkit-backdrop-filter: blur(22px);
   backdrop-filter: blur(22px);
   background-color: rgba(200, 231, 250, 0.53);
 
-  top: -720px;
-  right: -2%;
+  top: -25%;
+
   position: relative;
   border-top-left-radius: 35px;
+  width: 102%;
+  height: 452px;
+  animation: product-bg .7s ;
+  /* transition: linear 1s; */
+}
+
+
+
+
+
+.main-services-bg-2 {
+  -webkit-backdrop-filter: blur(22px);
+  backdrop-filter: blur(22px);
+  background-color: rgba(200, 231, 250, 0.53);
+
+  top: 2.75%;
+  animation: product-bg .7s ;
+  position: relative;
+  border-top-left-radius: 35px;
+  width: 102%;
+  height: 452px;
+  /* transition: linear 1s; */
+  z-index: 100;
+}
+
+
+.product-bg-2 {
+  animation: main-services-bg .7s ;
+  top: -29.6%;
+  right: -3%;
+  border-top-left-radius: 35px;
   width: 100%;
-  height: 812px;
-  transition: ease 1s;
+  height: 452px;
+  opacity: 0.97;
+  -webkit-backdrop-filter: blur(22px);
+  backdrop-filter: blur(22px);
+  background-color: rgba(200, 231, 250, 0.18);
+  /* transition: linear 1s; */
+  
+}
+
+
+@keyframes product-bg {
+  0% { opacity: .1; transform: translateY(75px); } 
+
+  25% { opacity: 0.3; transform: translateY(50px); } 
+  50% { opacity: 0.5; transform: translateY(25px); } 
+  75% { opacity: 0.7; transform: translateY(0px); } 
+
+100% {opacity: 1; transform: translateY(0); } 
+}
+
+@keyframes main-services-bg {
+    0% { opacity: 1; transform: translateY(0px); } 
+    
+    25% { opacity: 0.7; transform: translateY(25px); } 
+    50% { opacity: 0.5; transform: translateY(50px); } 
+    75% { opacity: 0.2; transform: translateY(75px); } 
+
+    100% { transform: translateY(0); } 
 }
 
 .products .vawe {
@@ -287,31 +447,62 @@ i {
 }
 
 .main-services .header h1 {
+
+  margin-top: 13px;
   object-fit: contain;
-  opacity: 0.32;
+  opacity: 0.61;
   font-family: MarkPro;
-  font-size: 35px;
-  font-weight: normal;
+  font-size: 22px;
+  font-weight: 500;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
-  letter-spacing: -0.22px;
-  color: #ffffff;
+  letter-spacing: -0.12px;
+  color: rgba(0, 0, 0, 0.33);
 }
 
-.main-services .header .header-right a {
+.main-services .header .header-right {
+  position: relative;
+}
+
+.xx {
+  position: absolute;
+  top: 380.5px;
+  right: 0%;
+  /* background-color: red; */
+  z-index: 100;
+
+}
+
+
+.yy {
+  position: absolute;
+  top: 465px;
+  right: 0%;
+  /* background-color: red; */
+  z-index: 100;
+}
+
+.main-services .header .header-right div {
   
+width: 163px;
+height: 31px;
+border-radius: 38px;
+border: solid 1px rgba(0, 0, 0, 0.34);
+ background-color: transparent;
+  margin-right: 180px;
+}
+
+.main-services .header .header-right a{
   font-family: MarkPro;
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 10px;
+  font-weight: 500;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.13;
-  letter-spacing: -0.43px;
-  
-  margin-left: -250px;
-  display: block;
-  color: #000000 !important;
+  line-height: 3.5;
+  letter-spacing: -0.04px;
+  color: #000;
+
 }
 
 
@@ -327,33 +518,52 @@ i {
 
 .products .header h1 {
   object-fit: contain;
-  font-family: MarkPro;
-  font-size: 50px;
+  font-family: MarkProHeavy;
+  font-size: 31px;
   font-weight: 900;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
-  letter-spacing: -0.32px;
-  color: #ffffff;
+  letter-spacing: -0.19px;
+  color: rgba(0, 0, 0, 0.3);
+
+}
+
+.products .header .header-left {
+  padding: 8px 0;
+}
+
+.products .header .header-right div {
+
+
+    width: 197px;
+    height: 41px;
+ 
+    border: solid 1px rgba(0, 0, 0, 0.34);
+  border-radius: 38px;
+  background-color: transparent;
+  
+  margin-right: 160px;
 }
 
 .products .header .header-right a {
+  font-family: MarkProHeavy;
 
-
-  font-family: MarkPro;
-  font-size: 19px;
-  font-weight: 300;
+  font-size: 15px;
+  font-weight: 900;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.84;
-  letter-spacing: -0.08px;
-  color: #000000 !important;
-  margin-left: -250px;
+  line-height: 2.33;
+  letter-spacing: -0.06px;
+  color: rgba(0, 0, 0, 0.44);
+  padding: 0.75rem 1.5rem;
 }
+
 .istehlak{
- 
-  width: 100%;
-  height: 241px;
+  padding-left: 35px;
+  border-radius: 15px;
+  width: 91%;
+  height: 100%;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   background-image: linear-gradient(to left, rgba(254, 244, 218, 0.9) , rgba(202, 207, 246, 0.82));
@@ -362,8 +572,10 @@ i {
 
  .lombard
 {
-  width: 100%;
-  height: 241px;
+  padding-left: 35px;
+  border-radius: 15px;
+  width: 91%;
+  height: 100%;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   background-image: linear-gradient(to left, rgba(164, 217, 248, 0.86), rgba(240, 251, 255, 0.85));
@@ -371,10 +583,157 @@ i {
 
  .cart
 {
-  width: 100%;
-  height: 241px;
+  padding-left: 35px;
+  border-radius: 15px;
+  width: 91%;
+  height: 100%;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   background-image: linear-gradient(to left, rgba(143, 203, 225, 0.87) , rgba(173, 232, 202, 0.9) )
 }
 
+.credit-top {
+  width: 98%;
+  margin: auto;
+}
+
+.credit-top  h6 {
+  font-family: MarkPro;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  color: #9d9d9d;
+}
+
+.credit-top  h5
+{
+  
+  font-family:  MarkProHeavy;
+  font-size: 25px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: -0.13px;
+  color: #000000;
+
+}
+
+.credit-top .percent {
+  padding-right: 20px;
+}
+
+.credit-top .percent  h2 {
+  object-fit: contain;
+  font-family: MarkProBold;
+  font-size: 120px;
+
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -8.68px;
+  color: rgba(0, 145, 198, 0.08);
+}
+
+.credit-top .percent span
+{
+  
+  object-fit: contain;
+  font-family: MarkPro;
+  font-size: 70px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -4.89px;
+  color: rgba(0, 145, 198, 0.08);
+
+}
+.credit-bottom {
+  width: 90%;
+ 
+}
+
+.credit-bottom p
+{
+
+  margin-top: -40px;
+  width: 80%;
+  height: 32px;
+  font-family: MarkPro;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.23px;
+  color: #4c4c4c;
+}
+
+
+
+.main-services .circle-active {
+    width: 10px;
+    height: 10px;
+    opacity: 0.61;
+    background-color: rgba(0, 0, 0, 0.42);
+  border-radius: 100%;
+  margin: 0 10px 0 -20px;
+}
+
+.main-services .header {
+  height: 70px;
+  margin-left: 8px;
+}
+
+.products .header {
+  height: 76px;
+  margin-left: 5px;
+}
+
+.products .circle-active {
+    width: 15px;
+    height: 15px;
+    background-color: rgba(0, 0, 0, 0.31);
+  border-radius: 100%;
+  margin: 0 1rem;
+
+}
+
+i {
+  transition: ease 0.8s;
+}
+
+i:hover {
+  color: #ffffff;
+}
+
+#side-drawer {
+  height: 100vh;
+  width: 30vw;  /*Ideal width for sidebar accdg to https://forums.envato.com/t/standard-sidebar-width/75633*/
+  top: 0;
+  right: -1036px;
+  z-index: 1032;  /*z-index of standard bootstrap navbar is 1030 + 1 offset due to side-drawer-void*/
+  transition: right 0.25s ease;
+}
+
+#side-drawer-void {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  z-index: 1031;  /*z-index of standard bootstrap navbar is 1030*/
+  background: rgba(0,0,0,.6);
+}
+
+.menu-holder {
+  backdrop-filter: blur(22px);
+  background-color: rgba(160, 201, 225, .26);
+}
+
+
+#side-drawer .nav-link {
+  font-size: 25px !important;
+}

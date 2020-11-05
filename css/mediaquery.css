@@ -1,3 +1,34 @@
+@media screen and (min-width:1025px) and (max-width:1892px){
+    .credit-top .percent span {
+        font-size: 60px;
+
+    }
+    .credit-top h5 {
+        font-size: 23px;
+    }
+    .credit-top .percent h2 {
+        font-size: 90px;
+        padding-right: 10px;
+    }
+    .credit-top .percent span {
+        font-size: 45px;
+    }
+    .credit-bottom p {
+        margin: 1px 0 7px 0 ;
+        width: 100%;
+    }
+
+   .top-svg {
+    left: 2.8%;
+   }
+
+   .kredit .kredit-left {
+    padding: 50px 0 0 70px;
+  }
+}
+
+
+
 @media screen and (min-width:768px) and (max-width:1024px){
  
 

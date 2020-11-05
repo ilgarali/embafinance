@@ -1,139 +1,141 @@
-const mainServices = document.querySelector('.main-services-bg')
 const mainService = document.querySelector('#main-service')
-const products = document.querySelector('.products-bg')
 const product = document.querySelector('#product')
 let check = true
+
+
 
 const mainItems = document.querySelector('#main-items')
 const productItems = document.querySelector('#product-items')
 
-const smainservicesbg = document.querySelector('.s-main-services-bg');
-const sproductsbg = document.querySelector('.s-products-bg');
 
 const changeMain = () => {
-    if (check) {
-        if (smainservicesbg) {
-            mainService.classList.remove('s-main-services-bg')
-            mainService.classList.add('s-main-services-bg-2')
-         
-            product.classList.remove('s-products-bg')
-            product.classList.add('s-products-bg-2')
-
-            mainItems.style.opacity = 1
-            productItems.style.opacity = 0
-            check =false
-        }
-        else {
-            mainService.classList.remove('main-services-bg')
-            mainService.classList.remove('main-services')
-            mainService.classList.add('main-services-2')
-            mainService.classList.add('products')
-         
-            product.classList.remove('products-bg')
-            product.classList.remove('products')
-            product.classList.add('products-2')
-            product.classList.add('main-services')
-            mainItems.style.opacity = 1
-            productItems.style.opacity = 0
-            check =false
-        }
-         
     
+    if (check) {
+        // mainService.classList.add('animate__animated', 'animate__zoomIn');
+        // mainService.style.setProperty('--animate-duration', '0.6s');
+        // product.classList.add('animate__animated', 'animate__zoomOut');
+        // product.style.setProperty('--animate-duration', '0.3s');
+
+        // setTimeout(() => {
+        //     product.classList.remove('animate__animated', 'animate__zoomOut');
+        // }, 300);
+        // setTimeout(() => {
+        //     mainService.classList.remove('animate__animated', 'animate__zoomIn');
+
+        // }, 900);
+
+        mainService.classList.remove('main-services-bg')
+        mainService.classList.remove('main-services')
+        mainService.classList.add('main-services-bg-2')
+        mainService.classList.add('products')
+        product.classList.remove('product-bg')
+        product.classList.remove('products')
+        product.classList.add('product-bg-2')
+        product.classList.add('main-services')
+        mainItems.style.opacity = 1;
+        productItems.style.opacity = 0;
+        check =false;
     }
     else {
+
+        // product.classList.add('animate__animated', 'animate__zoomIn');
+        // product.style.setProperty('--animate-duration', '0.5s');
+
+        // setTimeout(() => {
+        //     product.classList.remove('animate__animated', 'animate__zoomIn');
+            
+        // }, 800);
+
+
         mainService.classList.add('main-services-bg')
         mainService.classList.add('main-services')
-        mainService.classList.remove('main-services-2')
+        mainService.classList.remove('main-services-bg-2')
         mainService.classList.remove('products')
-     
-        product.classList.add('products-bg')
+        product.classList.add('product-bg')
         product.classList.add('products')
-        product.classList.remove('products-2')
+        product.classList.remove('product-bg-2')
         product.classList.remove('main-services')
-        mainItems.style.opacity = 0
-        productItems.style.opacity = 1
-        check =true
-
+        mainItems.style.opacity = 0;
+        productItems.style.opacity = 1;
+        check =true;
     }
 }
 
 
-// mainService.addEventListener('click',changeMain)
+mainService.addEventListener('click',changeMain)
 
-// product.addEventListener('click',changeMain)
+product.addEventListener('click',changeMain)
 
-// $( document ).ready(function() {
-//     (function() {
-//         // Add event listener
-//         document.addEventListener("mousemove", parallax);
-//         const elem = document.querySelector("#parallax");
-//         // Magic happens here
-//         function parallax(e) {
-//             let _w = window.innerWidth/2;
-//             let _h = window.innerHeight/2;
-         
-//             let _mouseX = e.clientX;
-//             let _mouseY = e.clientY;
-//             let _depth1 = `${70 - (_mouseX - _w) * 0.01}% ${30 - (_mouseY - _h) * 0.01}%`;
-//             let _depth2 = `${70 - (_mouseX - _w) * 0.02}% ${30 - (_mouseY - _h) * 0.02}%`;
-//             // let _depth3 = `${30 - (_mouseX - _w) * 0.06}% ${30 - (_mouseY - _h) * 0.06}%`;
-//             let x = `${_depth2}, ${_depth1}`;
-//             // console.log(x);
-//             elem.style.backgroundPosition = x;
-//         }
-    
-//     })()
-  
-       
-//           $(".aply").animate({left: '250px'});
-       
-  
 
-// });
+
+
 ScrollReveal().reveal('.aply-1',{
     origin:'left',
-    distance:'10rem',
-    duration:1800,
+    distance:'5rem',
+    duration:400,
     easing:'ease-in'
 });
 
 
 ScrollReveal().reveal('.aply-2',{
     origin:'left',
-    distance:'10rem',
-    duration:2000,
+    distance:'5rem',
+    duration:600,
     easing:'ease-in'
 });
 
 ScrollReveal().reveal('.aply-3',{
     origin:'left',
-    distance:'10rem',
-    duration:2200,
+    distance:'5rem',
+    duration:800,
     easing:'ease-in'
 });
 
 
-ScrollReveal().reveal('.credit-1',{
+ScrollReveal().reveal('.istehlak',{
     origin:'bottom',
-    distance:'10rem',
-    duration:1800,
+    distance:'1rem',
+    duration:400,
     easing:'ease-in'
 });
 
-ScrollReveal().reveal('.credit-2',{
+ScrollReveal().reveal('.lombard',{
     origin:'bottom',
-    distance:'10rem',
-    duration:2000,
+    distance:'1rem',
+    duration:600,
     easing:'ease-in'
 });
 
 
-ScrollReveal().reveal('.credit-3',{
+ScrollReveal().reveal('.cart',{
     origin:'bottom',
-    distance:'10rem',
-    duration:2200,
+    distance:'1rem',
+    duration:800,
     easing:'ease-in'
 });
+
+
+ScrollReveal().reveal('.faiz',{
+    origin:'top',
+    distance:'2rem',
+    duration:1300,
+    easing:'ease-in'
+});
+
+ScrollReveal().reveal('.b-kredit',{
+    origin:'top',
+    distance:'2rem',
+    duration:1500,
+    easing:'ease-in'
+});
+
+ScrollReveal().reveal('.apply',{
+    origin:'top',
+    distance:'2rem',
+    duration:1700,
+    easing:'ease-in'
+});
+
 
 
 ScrollReveal().reveal('.discount',{
@@ -143,80 +145,65 @@ ScrollReveal().reveal('.discount',{
     easing:'ease-in'
 });
 
-ScrollReveal().reveal('#load', { easing: 'ease-in-out' ,duration:2500,origin:"top"});
-
-ScrollReveal().reveal('.advantage',{
-    origin:'bottom',
-    distance:'10rem',
-    duration:1500,
-    easing:'ease-in'
-});
-// const preloader = document.querySelector('#preloader')
-
-// const load = document.querySelector('#load')
-// load.style.display = "none"
 
 
-// setTimeout(() => {
-    
-//     preloader.style.display = "none"
-//     load.style.display = "block"
+const circle = document.querySelector('.circle > g')
+const circleS = document.querySelector('.circle-1 > g')
+const circleT = document.querySelector('.circle-2 > g')
+if (circle) {
+    circle.style.fillOpacity = 1
+circle.style.transition = "ease-in 1.5s"
+circleS.style.fillOpacity = 1
+circleS.style.transition = "ease-out 1.7s"
 
-//     ScrollReveal().reveal('.aply-1',{
-//         origin:'left',
-//         distance:'10rem',
-//         duration:500,
-//         easing:'ease-in'
-//     });
-    
-    
-//     ScrollReveal().reveal('.aply-2',{
-//         origin:'left',
-//         distance:'10rem',
-//         duration:700,
-//         easing:'ease-in'
-//     });
-    
-//     ScrollReveal().reveal('.aply-3',{
-//         origin:'left',
-//         distance:'10rem',
-//         duration:900,
-//         easing:'ease-in'
-//     });
-    
-    
-//     ScrollReveal().reveal('.credit-1',{
-//         origin:'bottom',
-//         distance:'10rem',
-//         duration:900,
-//         easing:'ease-in'
-//     });
-    
-//     ScrollReveal().reveal('.credit-2',{
-//         origin:'bottom',
-//         distance:'10rem',
-//         duration:900,
-//         easing:'ease-in'
-//     });
-    
-    
-//     ScrollReveal().reveal('.credit-3',{
-//         origin:'bottom',
-//         distance:'10rem',
-//         duration:900,
-//         easing:'ease-in'
-//     });
-    
-    
-//     ScrollReveal().reveal('.discount',{
-//         origin:'bottom',
-//         distance:'10rem',
-//         duration:900,
-//         easing:'ease-in'
-//     });
+circleT.style.fillOpacity = 1
+circleT.style.transition = "ease-in-out 2s"
+setTimeout(() => {
+    circle.style.fillOpacity = 0.26
+    circleS.style.fillOpacity = 0.26
+    circleT.style.fillOpacity = 0.26
+}, 2000);
+
+}
 
 
+
+
+
+const ovalF = document.querySelector('.oval-1')
+const ovalS = document.querySelector('.oval-2')
+const ovalT = document.querySelector('.oval-3')
+
+if (ovalF) {
+    const changePos = (e) => {
+         
+         
+        let _mouseX = e.clientX /8;
+        let _mouseY = e.clientY / 5
+        ovalF.style.left = `-${_mouseX + 5}px`
+        ovalF.style.top = `${_mouseY + 5}px`
+        ovalS.style.right = `-${_mouseX / 5}px`
+        ovalS.style.top = `${_mouseY / 5}px`
+        ovalT.style.right = `-${_mouseX}px`
+        ovalT.style.top = `${_mouseY}px`
+                
+    }
     
-// }, 1000);
+    window.addEventListener('mousemove',changePos)
+}
 
 
+const drawer = document.querySelector('#drawer')
+
+
+function openSideDrawer() {
+    document.getElementById("side-drawer").style.right = "0";
+    document.getElementById("side-drawer-void").classList.add("d-block");
+    document.getElementById("side-drawer-void").classList.remove("d-none");
+  }
+  
+  function closeSideDrawer() {
+    document.getElementById("side-drawer").style.right = "-1036px";
+    document.getElementById("side-drawer-void").classList.add("d-none");
+    document.getElementById("side-drawer-void").classList.remove("d-block");
+  }

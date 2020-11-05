@@ -9,10 +9,16 @@
     <!-- Bootstrap CSS -->
 
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/main2.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/mediaquery.css">
     <script src="./js/fontawesome.js"></script>
-    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+  
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+
 
     <title>Hello, world!</title>
 </head>
@@ -69,6 +75,7 @@
                 </g>
             </svg>
         </div>
+     
         <div class="container-fluid holder">
             <div class="navigation py-2">
                 <nav class="navbar navbar-container navbar-expand-lg navbar-dark " id="mainNav">
@@ -93,11 +100,8 @@
                                 </g>
                             </g>
                         </svg></a>
-                    <button class="navbar-toggler navbar-togler-right" type="button" data-toggle="collapse"
-                        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                        aria-label="Tooglenavigation">Menu <i class="fas fa-bars"></i>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                 
+               
                         <ul class="navbar-nav text-uppercase ml-auto d-flex justifyc-content-center align-items-center">
                             <div class="dropdown">
                                 <a class="btn  dropdown-toggle" type="button" id="dropdownMenuButton"
@@ -126,37 +130,49 @@
                             <li class="nav-item mr-4 cabinet d-flex justify-content-center align-items-center">
                                 <a class="nav-link" href="portfolio.html">Şəxsi kabinet</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item p-3" onclick="openSideDrawer()">
 
-                                <svg xmlns="http://www.w3.org/2000/svg" width="52" height="28" viewBox="0 0 52 28">
-                                    <g fill="#fff" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-                                        <g stroke="#fff" stroke-width="2">
+                                <svg  xmlns="http://www.w3.org/2000/svg" width="47" height="30" viewBox="0 0 47 30">
+                                    <g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                                        <g stroke="#FFF" stroke-width="4">
                                             <g>
-                                                <path d="M0 .378L49.082.378M0 12.5L49.082 12.5M0 24.622L49.082 24.622"
-                                                    transform="translate(-1766 -81) translate(1767 82.5)" />
+                                                <path
+                                                    d="M.082.378L42.082.378M.082 12.5L42.082 12.5M.082 24.622L42.082 24.622"
+                                                    transform="translate(-1772 -53) translate(1774 55.5)" />
                                             </g>
                                         </g>
                                     </g>
                                 </svg>
                             </li>
                         </ul>
-                    </div>
+                   
 
 
                 </nav>
             </div>
 
-
-
-
+            <svg class="top-svg" xmlns="http://www.w3.org/2000/svg" width="87" height="63" viewBox="0 0 87 63">
+                <g fill="none" fill-rule="evenodd" opacity="1">
+                    <g fill="rgba(160, 201, 225, 0.36)">
+                        <path d="M64 130c40.491 0 75.092-26.692 87-63v63H64z"
+                            transform="translate(-64 -67) matrix(-1 0 0 1 215 0)" />
+                    </g>
+                </g>
+            </svg>
+  
             <div class="row">
+
+
+               
                 <div class="col-md-3 ">
+
+
+
                     <div class="services d-flex justify-content-center align-items-center pt-5">
 
                         <div class="online-services">
                             <h2>Onlayn xidmətlər</h2>
-                            <div class="aply aply-1 d-flex  align-items-center mt-5" data-sr-id="0"
-                                style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1.8s ease-in 0s, transform 1.8s ease-in 0s; left: 250px;">
+                            <div class="aply aply-1 d-flex  align-items-center mt-5">
 
                                 <svg xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 51 51">
                                     <defs>
@@ -174,8 +190,8 @@
                                         </g>
                                     </g>
                                 </svg>
-                                <div class="aply-bottom ml-4">
-                                    <h3 class="">Kredit üçün onlayn müraciət</h3>
+                                <div class="aply-bottom ml-3">
+                                    <a class="">Kredit üçün onlayn müraciət</a>
                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                         style="width: 30px; height: 30px;fill: #fff;" version="1.1" id="Layer_1" x="0px"
                                         y="0px" viewBox="0 0 512 512" xml:space="preserve">
@@ -190,27 +206,18 @@
                                 </div>
 
                             </div>
-                            <div class="aply aply-2 d-flex  align-items-center mt-5" data-sr-id="2"
-                                style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s ease-in 0s, transform 2s ease-in 0s; left: 250px;">
+                            <div class="aply aply-2 d-flex  align-items-center mt-4 pt-1">
 
-                                <svg xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 51 51">
-                                    <defs>
-                                        <linearGradient id="9t6yudmpua" x1="171.079%" x2="-72.516%" y1="-47.811%"
-                                            y2="163.412%">
-                                            <stop offset="0%" stop-color="#FFF"></stop>
-                                            <stop offset="100%" stop-color="#0091C6"></stop>
-                                        </linearGradient>
-                                    </defs>
-                                    <g fill="none" fill-rule="evenodd" opacity=".676">
-                                        <g fill="#f6da9e" transform="translate(-63 -616)">
-                                            <path
-                                                d="M88.442 616.025c13.808 0 25 11.193 25 25s-11.192 25-25 25c-13.807 0-25-11.193-25-25s11.193-25 25-25zm7.29 10.982H79.825c-1.346 0-2.442 1.096-2.442 2.443v22.908c0 1.346 1.096 2.442 2.442 2.442h15.905c1.347 0 2.443-1.096 2.443-2.442v-6.462l6.526-6.444c.635-.635.635-1.668 0-2.303l-1.36-1.36c-.635-.634-1.668-.634-2.303 0l-2.863 2.864v-9.203c0-1.347-1.096-2.443-2.443-2.443zm0 1.629c.448 0 .814.365.814.814v10.831c-4.516 4.516-4.22 4.191-4.307 4.376l-2.15 4.607c-.144.31-.08.678.162.92s.61.307.92.162l4.607-2.15c.168-.079.196-.128.768-.692v4.854c0 .449-.366.814-.815.814H79.826c-.448 0-.814-.365-.814-.814V629.45c0-.449.366-.814.814-.814h15.905zm4 10.762l1.344 1.344-6.115 6.038-2.449 1.143 1.142-2.447 6.078-6.078zm-11.057 1.56h-6.949c-.45 0-.814.365-.814.814 0 .45.365.815.814.815h6.949c.45 0 .814-.365.814-.815 0-.45-.365-.814-.814-.814zm13.514-4.017l1.359 1.36-1.313 1.296-1.351-1.35 1.305-1.306zm-10.909-.325h-9.554c-.45 0-.814.364-.814.814 0 .45.365.814.814.814h9.554c.45 0 .814-.365.814-.814 0-.45-.364-.814-.814-.814zm2.606-4.343h-12.16c-.45 0-.814.364-.814.814 0 .45.365.814.814.814h12.16c.45 0 .814-.364.814-.814 0-.45-.365-.814-.814-.814z">
-                                            </path>
-                                        </g>
-                                    </g>
-                                </svg>
-                                <div class="aply-bottom ml-4">
-                                    <h3 class="">Kredit üçün onlayn müraciət</h3>
+                             
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="51" viewBox="0 0 50 51">
+    <g fill="none" fill-rule="evenodd" opacity=".675">
+        <g fill="#F6DA9E">
+            <path d="M171 436.496c13.807 0 25 11.193 25 25s-11.193 25-25 25-25-11.193-25-25 11.193-25 25-25zm10.565 16.672h-21.319l-.183.005c-1.762.095-3.166 1.559-3.166 3.344v12.044l.005.183c.096 1.762 1.56 3.166 3.344 3.166h21.32l.183-.005c1.762-.096 3.165-1.56 3.165-3.344v-12.044l-.005-.184c-.095-1.761-1.558-3.165-3.344-3.165zm1.496 7.322v8.07l-.006.144c-.073.758-.713 1.353-1.49 1.353h-21.319l-.143-.007c-.758-.073-1.353-.713-1.353-1.49v-8.07h24.311zm-16.938 6.19h-5.073l-.066.006c-.15.03-.263.163-.263.322v1.001l.007.066c.03.15.163.263.322.263h5.073l.066-.007c.15-.03.263-.163.263-.322v-1l-.006-.067c-.031-.15-.164-.263-.323-.263zm12.618-2.972c-.528 0-1.014.177-1.403.474-.389-.297-.875-.474-1.402-.474-1.278 0-2.315 1.037-2.315 2.315 0 1.279 1.037 2.315 2.315 2.315.527 0 1.013-.177 1.402-.473.39.297.875.473 1.403.473 1.278 0 2.314-1.036 2.314-2.315 0-1.278-1.036-2.315-2.314-2.315zm2.824-8.687c.825 0 1.496.671 1.496 1.496v1.329l-24.31.002v-1.331l.006-.144c.073-.758.713-1.352 1.49-1.352z" transform="translate(-146 -436)"/>
+        </g>
+    </g>
+</svg>
+                                <div class="aply-bottom ml-3">
+                                    <a class="">Kredit üçün onlayn müraciət</a>
                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                         style="width: 30px; height: 30px;fill: #fff;" version="1.1" id="Layer_1" x="0px"
                                         y="0px" viewBox="0 0 512 512" xml:space="preserve">
@@ -225,27 +232,18 @@
                                 </div>
 
                             </div>
-                            <div class="aply aply-3 d-flex  align-items-center mt-5" data-sr-id="3"
-                                style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2.2s ease-in 0s, transform 2.2s ease-in 0s; left: 250px;">
+                            <div class="aply aply-3 d-flex  align-items-center mt-4 pt-1">
 
-                                <svg xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 51 51">
-                                    <defs>
-                                        <linearGradient id="9t6yudmpua" x1="171.079%" x2="-72.516%" y1="-47.811%"
-                                            y2="163.412%">
-                                            <stop offset="0%" stop-color="#FFF"></stop>
-                                            <stop offset="100%" stop-color="#0091C6"></stop>
-                                        </linearGradient>
-                                    </defs>
-                                    <g fill="none" fill-rule="evenodd" opacity=".676">
-                                        <g fill="#f6da9e" transform="translate(-63 -616)">
-                                            <path
-                                                d="M88.442 616.025c13.808 0 25 11.193 25 25s-11.192 25-25 25c-13.807 0-25-11.193-25-25s11.193-25 25-25zm7.29 10.982H79.825c-1.346 0-2.442 1.096-2.442 2.443v22.908c0 1.346 1.096 2.442 2.442 2.442h15.905c1.347 0 2.443-1.096 2.443-2.442v-6.462l6.526-6.444c.635-.635.635-1.668 0-2.303l-1.36-1.36c-.635-.634-1.668-.634-2.303 0l-2.863 2.864v-9.203c0-1.347-1.096-2.443-2.443-2.443zm0 1.629c.448 0 .814.365.814.814v10.831c-4.516 4.516-4.22 4.191-4.307 4.376l-2.15 4.607c-.144.31-.08.678.162.92s.61.307.92.162l4.607-2.15c.168-.079.196-.128.768-.692v4.854c0 .449-.366.814-.815.814H79.826c-.448 0-.814-.365-.814-.814V629.45c0-.449.366-.814.814-.814h15.905zm4 10.762l1.344 1.344-6.115 6.038-2.449 1.143 1.142-2.447 6.078-6.078zm-11.057 1.56h-6.949c-.45 0-.814.365-.814.814 0 .45.365.815.814.815h6.949c.45 0 .814-.365.814-.815 0-.45-.365-.814-.814-.814zm13.514-4.017l1.359 1.36-1.313 1.296-1.351-1.35 1.305-1.306zm-10.909-.325h-9.554c-.45 0-.814.364-.814.814 0 .45.365.814.814.814h9.554c.45 0 .814-.365.814-.814 0-.45-.364-.814-.814-.814zm2.606-4.343h-12.16c-.45 0-.814.364-.814.814 0 .45.365.814.814.814h12.16c.45 0 .814-.364.814-.814 0-.45-.365-.814-.814-.814z">
-                                            </path>
-                                        </g>
-                                    </g>
-                                </svg>
-                                <div class="aply-bottom ml-4">
-                                    <h3 class="">Kredit üçün onlayn müraciət</h3>
+                       
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="51" viewBox="0 0 50 51">
+    <g fill="none" fill-rule="evenodd" opacity=".678">
+        <g fill="#F6DA9E">
+            <path d="M171 525.452c13.807 0 25 11.193 25 25s-11.193 25-25 25-25-11.193-25-25 11.193-25 25-25zm5.756 12.39c-.382-.264-.902-.237-1.256.08l-2.849 2.547-2.849-2.548-.1-.079c-.382-.264-.902-.237-1.256.08l-2.852 2.55-2.85-2.52-.103-.081c-.29-.195-.663-.23-.988-.085-.365.165-.6.528-.6.928v18.109h-3.459l-.11.006c-.51.055-.907.487-.907 1.011v2.476l.005.217c.111 2.517 2.15 4.542 4.675 4.632h17.905c.079-.002.158 0 .238 0 2.674 0 4.85-2.175 4.85-4.85v-21.601l-.01-.132c-.045-.347-.266-.65-.59-.796-.366-.164-.793-.1-1.092.166l-2.85 2.52-2.852-2.55zm-2.206 21.015v1.459l.007.26c.05.95.375 1.827.896 2.555h-14.027l-.17-.006c-1.474-.089-2.644-1.315-2.644-2.81v-1.458h15.938zm1.628-18.813l2.849 2.548.1.079c.38.263.898.238 1.252-.075l1.835-1.624v19.344l-.005.17c-.089 1.473-1.315 2.644-2.81 2.644-1.551 0-2.814-1.263-2.814-2.814v-2.476l-.006-.11c-.055-.51-.487-.907-1.011-.907h-12.48v-15.851l1.836 1.624.1.078c.382.261.9.233 1.252-.082l2.848-2.547 2.849 2.547.1.079c.382.264.902.238 1.256-.08l2.85-2.547zm2 11.454h-11.02l-.111.006c-.51.056-.907.487-.907 1.012 0 .562.456 1.017 1.017 1.017h11.022l.11-.006c.51-.055.907-.487.907-1.011 0-.562-.455-1.018-1.017-1.018zm-4.747-4.747h-6.274l-.11.006c-.51.055-.907.487-.907 1.011 0 .562.456 1.018 1.017 1.018h6.274l.111-.006c.51-.056.907-.487.907-1.012 0-.562-.456-1.017-1.018-1.017z" transform="translate(-146 -525)"/>
+        </g>
+    </g>
+</svg>
+                                <div class="aply-bottom ml-3">
+                                    <a class="">Kredit üçün onlayn müraciət</a>
                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                         style="width: 30px; height: 30px;fill: #fff;" version="1.1" id="Layer_1" x="0px"
                                         y="0px" viewBox="0 0 512 512" xml:space="preserve">
@@ -261,17 +259,17 @@
                             </div>
 
 
-                            <div class="contact pt-5">
+                            <div class="contact pt-5 mt-5">
                                 <hr>
-                                <h5>Baş ofis:</h5>
+                                <h5 class="mt-4 pt-2">Baş ofis:</h5>
                                 <h5>General Akim Abbasov, 73E, Bakı, AZ 1138</h5>
-                                <h5>Əlaqə nömrələrimiz</h5>
-                                <h5>012 4347862/ 63/ 64/ 65</h5>
+                                <h5 class="mt-5">Əlaqə nömrələrimiz</h5>
+                                <h5 class="mb-4 pb-2">012 4347862/ 63/ 64/ 65</h5>
                                 <hr>
                             </div>
 
 
-                            <div class="pl-4 pt-5">
+                            <div class="pl-4 pt-3 pb-5">
 
                                 <a href=""><i class="fab fa-facebook-square  fb" aria-hidden="true"></i></a>
                                 <a href=""><i class="fab fa-instagram  insta mx-2" aria-hidden="true"></i></a>
@@ -292,38 +290,109 @@
                 <div class="col-md-9">
                     <div class="kredit d-flex justify-content-center ">
                         <div class="kredit-left ">
-                            <h5>15,5% başlayan faizlərlə</h5>
-                            <h2 class="my-4">Hər kəs üçün istehlak və mikro-biznes kreditləri</h2>
+                            <h5 class="faiz">15,5% başlayan faizlərlə</h5>
+                            <h2 class="my-4 b-kredit">Hər kəs üçün istehlak və mikro-biznes kreditləri</h2>
                             <button class="btn apply">Müraciət et</button>
                         </div>
                         <div class="kredit-right">
-                            <img src="./img/2447.png" class="img-fluid" alt="">
+
+
+                            <svg class="oval-1" xmlns="http://www.w3.org/2000/svg" width="193" height="193"
+                                viewBox="0 0 193 193">
+                                <defs>
+                                    <filter id="51fwkht8za" width="159.1%" height="159.1%" x="-29.5%" y="-29.5%"
+                                        filterUnits="objectBoundingBox">
+                                        <feGaussianBlur in="SourceGraphic" stdDeviation="13" />
+                                    </filter>
+                                </defs>
+                                <g fill="none" fill-opacity=".555" fill-rule="evenodd" opacity=".416">
+                                    <g fill="#fff" transform="translate(-1161 -427)">
+                                        <circle cx="1257.138" cy="523.014" r="66" filter="url(#51fwkht8za)" />
+                                    </g>
+                                </g>
+                            </svg>
+
+                            <img src="./img/2447.png" class=" pay" alt="">
+
+                            <svg class="oval-2" xmlns="http://www.w3.org/2000/svg" width="243" height="244"
+                                viewBox="0 0 243 244">
+                                <defs>
+                                    <filter id="zxyjj3j0na" width="284.2%" height="284.2%" x="-92.1%" y="-92.1%"
+                                        filterUnits="objectBoundingBox">
+                                        <feGaussianBlur in="SourceGraphic" stdDeviation="31" />
+                                    </filter>
+                                </defs>
+                                <g fill="none" fill-opacity=".601" fill-rule="evenodd" opacity=".654">
+                                    <g fill="#F6DA9E" transform="translate(-1476 -143)">
+                                        <circle cx="1597.5" cy="265.199" r="50.5" filter="url(#zxyjj3j0na)" />
+                                    </g>
+                                </g>
+                            </svg>
+
+
+                            <svg class="oval-3" xmlns="http://www.w3.org/2000/svg" width="309" height="313"
+                                viewBox="0 0 309 313">
+                                <defs>
+                                    <filter id="lf6m8bnqna" width="131%" height="131%" x="-15.5%" y="-15.5%"
+                                        filterUnits="objectBoundingBox">
+                                        <feGaussianBlur in="SourceGraphic" stdDeviation="13" />
+                                    </filter>
+                                </defs>
+                                <g fill="none" fill-opacity=".495" fill-rule="evenodd" opacity=".511">
+                                    <g fill="#FFF" transform="translate(-1611 -253)">
+                                        <circle cx="1767" cy="409.761" r="126" filter="url(#lf6m8bnqna)" />
+                                    </g>
+                                </g>
+                            </svg>
                         </div>
                     </div>
+                    <svg class="kredit-b" xmlns="http://www.w3.org/2000/svg" width="87" height="63" viewBox="0 0 87 63">
+                        <g fill="none" fill-rule="evenodd" opacity=".265">
+                            <g fill="rgba(160, 201, 225, 0.26)">
+                                <path d="M535 638c40.491 0 75.092-26.692 87-63v63h-87z"
+                                    transform="translate(-535 -575) rotate(180 578.5 606.5)" />
+                            </g>
+                        </g>
+                    </svg>
 
-
-                    <div class="main-services main-services-bg pl-5 pt-3 " id="main-service">
+                    <svg class="xx" xmlns="http://www.w3.org/2000/svg" width="130" height="130" viewBox="0 0 88 63">
+                        <g fill="none" fill-opacity=".205" fill-rule="evenodd">
+                            <g fill="rgba(200, 231, 250, 0.63)">
+                                <g>
+                                    <path style="backdrop-filter: blur(22px);
+                                    background-color: rgba(200, 231, 250, 0.18);
+                                    transition: ease 1s;"
+                                        d="M1228.772 62.66c40.491 0 75.042-26.352 86.95-62.66l-.018 62.652-86.932.009z"
+                                        transform="translate(-1801 -537) translate(572.638 537)" />
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <div class="main-services main-services-bg pl-5  " id="main-service">
                         <div class="header d-flex align-items-center justify-content-between ">
-                            <div class="header-left d-flex align-items-center justifyc-content-between">
-                                
-                                <h1 class="pt-3">Kampaniyalar</h1>
+                            <div class="header-left d-flex align-items-center ">
+                                <div class="circle-active "></div>
+                                <h1 class="">Kampaniyalar</h1>
                             </div>
 
                             <div class="header-right">
-                                <a href="./index2.html" id="kampaniyalar">bütün kampaniyalar</a>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <a href="">Bütün kampaniyalar</a>
+                                </div>
                             </div>
                         </div>
 
+
+
                         <div class="container-fluid">
-                            <div class="body row " id="main-items" style="opacity: 0;">
-                                <div class="col-md-4 ">
-                                    <div class="credits istehlak py-1 credit-1" data-sr-id="4"
-                                        style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1.8s ease-in 0s, transform 1.8s ease-in 0s;">
-                                        <div class="credit-top d-flex justify-content-center px-2">
-                                            <div class="titles ">
-                                                <h6>Xidmətlər</h6>
+                            <div class="body row " id="main-items" style="opacity: 0;" >
+                                <div class="col-md-4 d-inline-block">
+                                    <div class="credits istehlak py-1 credit-1">
+                                        <div class="credit-top d-flex justify-content-around ">
+                                            <div class="titles pt-4">
+                                                <h6>Məhsullar</h6>
                                                 <h5>İstehlak
-                                                    Xidmətlər</h5>
+                                                    kreditləri</h5>
                                             </div>
 
                                             <div class="percent d-flex align-items-center justifyc-content-center">
@@ -331,9 +400,10 @@
                                                 <h2> 15</h2>
                                             </div>
                                         </div>
-                                        <div class="credit-bottom">
-                                            <p> XidmətlərXidmətlərXidmətlər</p>
-                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                        <div class="credit-bottom ">
+                                            <p> 15%-dən başlayan kreditlərlə mebel, məişət texnikası, və digər
+                                            </p>
+                                            <svg class="" xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink"
                                                 style="width: 30px; height: 30px;fill: #000000;" version="1.1"
                                                 id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
@@ -351,23 +421,24 @@
 
                                 </div>
                                 <div class="col-md-4 ">
-                                    <div class="credits lombard py-1 credit-2" data-sr-id="6"
-                                        style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s ease-in 0s, transform 2s ease-in 0s;">
-                                        <div class="credit-top d-flex justify-content-center px-2">
-                                            <div class="titles ">
-                                                <h6>Xidmətlər</h6>
-                                                <h5>Lombard
-                                                    Xidmətlər</h5>
+                                    <div class="credits lombard py-1 credit-1">
+                                        <div class="credit-top d-flex justify-content-around ">
+                                            <div class="titles pt-4">
+                                                <h6>Məhsullar</h6>
+                                                <h5>İstehlak
+                                                    kreditləri</h5>
                                             </div>
 
-                                            <div class="percent d-flex align-items-center justifyc-content-center">
+                                            <div
+                                                class="percent d-flex align-items-center justifyc-content-center flex-sm-row flex-column">
                                                 <span>%</span>
-                                                <h2> 19</h2>
+                                                <h2> 15</h2>
                                             </div>
                                         </div>
-                                        <div class="credit-bottom">
-                                            <p> XidmətlərXidmətlərXidmətlər</p>
-                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                        <div class="credit-bottom ">
+                                            <p> 15%-dən başlayan kreditlərlə mebel, məişət texnikası, və digər
+                                            </p>
+                                            <svg class="" xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink"
                                                 style="width: 30px; height: 30px;fill: #000000;" version="1.1"
                                                 id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
@@ -385,23 +456,24 @@
 
                                 </div>
                                 <div class="col-md-4 ">
-                                    <div class="credits cart py-1 credit-3" data-sr-id="8"
-                                        style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2.2s ease-in 0s, transform 2.2s ease-in 0s;">
-                                        <div class="credit-top d-flex justify-content-center px-2">
-                                            <div class="titles ">
-                                                <h6>Xidmətlər</h6>
-                                                <h5>Kart
-                                                    Xidmətlər</h5>
+                                    <div class="credits cart py-1 credit-1">
+                                        <div class="credit-top d-flex justify-content-around ">
+                                            <div class="titles pt-4">
+                                                <h6>Məhsullar</h6>
+                                                <h5>İstehlak
+                                                    kreditləri</h5>
                                             </div>
 
-                                            <div class="percent d-flex align-items-center justifyc-content-center">
+                                            <div
+                                                class="percent d-flex align-items-center justifyc-content-center flex-sm-row flex-column">
                                                 <span>%</span>
-                                                <h2> 17</h2>
+                                                <h2> 15</h2>
                                             </div>
                                         </div>
-                                        <div class="credit-bottom">
-                                            <p> XidmətlərXidmətlərXidmətlər</p>
-                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                        <div class="credit-bottom ">
+                                            <p> 15%-dən başlayan kreditlərlə mebel, məişət texnikası, və digər
+                                            </p>
+                                            <svg class="" xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink"
                                                 style="width: 30px; height: 30px;fill: #000000;" version="1.1"
                                                 id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
@@ -422,15 +494,31 @@
                         </div>
                     </div>
 
-                    <div class="products pl-5 products-bg" id="product">
+
+                    <svg class="yy" xmlns="http://www.w3.org/2000/svg" width="130" height="110" viewBox="0 0 88 63">
+                        <g fill="none" fill-opacity=".205" fill-rule="evenodd">
+                            <g fill="#C8E7FA">
+                                <g>
+                                    <path
+                                        d="M1228.772 62.66c40.491 0 75.042-26.352 86.95-62.66l-.018 62.652-86.932.009z"
+                                        transform="translate(-1801 -537) translate(572.638 537)" />
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    
+                    <div class="products pl-5 product-bg " id="product">
+
                         <div class="header d-flex align-items-center justify-content-between ">
-                            <div class="header-left d-flex align-items-center justifyc-content-between">
-                             
-                                <h1 class="pt-3">Məhsullar</h1>
+                            <div class="header-left d-flex align-items-center ">
+                                <div class="circle-active "></div>
+                                <h1 class="">Məhsullar</h1>
                             </div>
 
                             <div class="header-right">
-                                <a href="">Bütün məhsullar</a>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <a href="" class="">Bütün məhsullar</a>
+                                </div>
                             </div>
                         </div>
 
@@ -438,11 +526,10 @@
 
                         <div class="container-fluid">
                             <div class="body row " id="product-items">
-                                <div class="col-md-4 ">
-                                    <div class="credits istehlak py-1 credit-1" data-sr-id="5"
-                                        style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1.8s ease-in 0s, transform 1.8s ease-in 0s;">
-                                        <div class="credit-top d-flex justify-content-center px-2">
-                                            <div class="titles ">
+                                <div class="col-md-4 d-inline-block">
+                                    <div class="credits istehlak py-1 credit-1">
+                                        <div class="credit-top d-flex justify-content-around ">
+                                            <div class="titles pt-4">
                                                 <h6>Məhsullar</h6>
                                                 <h5>İstehlak
                                                     kreditləri</h5>
@@ -453,11 +540,10 @@
                                                 <h2> 15</h2>
                                             </div>
                                         </div>
-                                        <div class="credit-bottom">
+                                        <div class="credit-bottom ">
                                             <p> 15%-dən başlayan kreditlərlə mebel, məişət texnikası, və digər
-                                                məhsulları
-                                                alışının maliyyələşdirməsi</p>
-                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                            </p>
+                                            <svg class="" xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink"
                                                 style="width: 30px; height: 30px;fill: #000000;" version="1.1"
                                                 id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
@@ -475,25 +561,24 @@
 
                                 </div>
                                 <div class="col-md-4 ">
-                                    <div class="credits lombard py-1 credit-2" data-sr-id="7"
-                                        style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s ease-in 0s, transform 2s ease-in 0s;">
-                                        <div class="credit-top d-flex justify-content-center px-2">
-                                            <div class="titles ">
+                                    <div class="credits lombard py-1 credit-1">
+                                        <div class="credit-top d-flex justify-content-around ">
+                                            <div class="titles pt-4">
                                                 <h6>Məhsullar</h6>
-                                                <h5>Lombard
+                                                <h5>İstehlak
                                                     kreditləri</h5>
                                             </div>
 
-                                            <div class="percent d-flex align-items-center justifyc-content-center">
+                                            <div
+                                                class="percent d-flex align-items-center justifyc-content-center flex-sm-row flex-column">
                                                 <span>%</span>
-                                                <h2> 19</h2>
+                                                <h2> 15</h2>
                                             </div>
                                         </div>
-                                        <div class="credit-bottom">
+                                        <div class="credit-bottom ">
                                             <p> 15%-dən başlayan kreditlərlə mebel, məişət texnikası, və digər
-                                                məhsulları
-                                                alışının maliyyələşdirməsi</p>
-                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                            </p>
+                                            <svg class="" xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink"
                                                 style="width: 30px; height: 30px;fill: #000000;" version="1.1"
                                                 id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
@@ -511,25 +596,24 @@
 
                                 </div>
                                 <div class="col-md-4 ">
-                                    <div class="credits cart py-1 credit-3" data-sr-id="9"
-                                        style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2.2s ease-in 0s, transform 2.2s ease-in 0s;">
-                                        <div class="credit-top d-flex justify-content-center px-2">
-                                            <div class="titles ">
+                                    <div class="credits cart py-1 credit-1">
+                                        <div class="credit-top d-flex justify-content-around ">
+                                            <div class="titles pt-4">
                                                 <h6>Məhsullar</h6>
-                                                <h5>Kart
-                                                    məhsulları</h5>
+                                                <h5>İstehlak
+                                                    kreditləri</h5>
                                             </div>
 
-                                            <div class="percent d-flex align-items-center justifyc-content-center">
+                                            <div
+                                                class="percent d-flex align-items-center justifyc-content-center flex-sm-row flex-column">
                                                 <span>%</span>
-                                                <h2> 17</h2>
+                                                <h2> 15</h2>
                                             </div>
                                         </div>
-                                        <div class="credit-bottom">
+                                        <div class="credit-bottom ">
                                             <p> 15%-dən başlayan kreditlərlə mebel, məişət texnikası, və digər
-                                                məhsulları
-                                                alışının maliyyələşdirməsi</p>
-                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                            </p>
+                                            <svg class="" xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink"
                                                 style="width: 30px; height: 30px;fill: #000000;" version="1.1"
                                                 id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
@@ -556,7 +640,39 @@
         </div>
     </section>
 
+    <div id="side-drawer" class="position-fixed">
+        <div class="h-100 menu-holder d-flex justify-content-center align-items-center" >
+  
+          <!-- Side Drawer Links -->
+         
 
+          
+            <ul class="navbar-nav " >
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+        
+        </div>
+      </div>
+      <div id="side-drawer-void" class="position-fixed d-none" onclick="closeSideDrawer()"></div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
