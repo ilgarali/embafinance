@@ -19,6 +19,15 @@
   
   }
 
+      
+  @font-face {
+    font-family: MarkProMedium;
+    src: url('../fonts/MarkPro-Medium.ttf') format('truetype');
+    
+  
+  }
+
+
 
 
 .navbar {
@@ -45,6 +54,9 @@
   .navbar-nav {
     margin-right: -40px;
 
+  }
+  .nav-link {
+    font-size: MarkProBold !important;
   }
    
   .nav-item svg:hover {
@@ -182,14 +194,14 @@ body {
 .services h2 {
   -webkit-filter: blur(0.5px);
   filter: blur(0.5px);
-  font-family: MarkPro;
-  font-size: 30px;
+  font-family: MarkProMedium;
+  font-size: 26px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.67;
-  letter-spacing: -0.85px;
-  color: #a0c9e1;
+  line-height: 1.92;
+  letter-spacing: -0.74px;
+  color: #ffffff;
 }
 
 .aply-bottom {
@@ -198,14 +210,14 @@ body {
 .services .aply-bottom  a
 {
   width: 158.5px;
-  font-family: MarkPro;
+  font-family: MarkProBold;
   font-size: 15px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.13;
   letter-spacing: -0.43px;
-  color: #abd5ac;
+  color: #fff;
   display: block;
   cursor: pointer;
   transition: ease 0.7s;
@@ -239,7 +251,10 @@ hr {
   color: rgba(255, 255, 255, 0.55);
 
 }
+.contact .white {
 
+  color: rgba(255, 255, 255, 1) !important;
+}
 i {
   color: rgba(255, 255, 255, 0.55);
 }
@@ -260,39 +275,36 @@ i {
 .kredit h5 {
   -webkit-filter: blur(0.5px);
   filter: blur(0.5px);
-  font-family: MarkPro;
-  font-size: 30px;
+  font-family: MarkProMedium;
+  font-size: 26px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.67;
-  letter-spacing: -0.85px;
-  color: #a0c9e1;
+  line-height: 1.92;
+  letter-spacing: -0.74px;
+  color: #ffffff;
 }
 
 .kredit h2
 {
   width: 80%;
 
-  -webkit-filter: blur(0.6px);
-  filter: blur(0.6px);
-  text-shadow: 0 9px 7px rgba(0, 98, 134, 0.44);
   font-family: MarkProHeavy;
-  font-size: 47px;
+  font-size: 90px;
   font-weight: 900;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.06;
-  letter-spacing: -1.34px;
-  color: #ffffff;
+  line-height: 0.89;
+  letter-spacing: -2.56px;
+  color: #0091c6;
 }
 
 .kredit .apply {
   width: 187px;
   height: 41px;
   border-radius: 20.5px;
-  background-color: rgba(171, 213, 172, 0.56);
-  font-family: MarkPro;
+  background-color: #0091c6;
+  font-family: MarkProHeavy;
   font-size: 15px;
   font-weight: 900;
   font-stretch: normal;
@@ -360,7 +372,7 @@ i {
 
 .main-services-bg {
 
-  top: -1%;
+  top: 1%;
   right: -3%;
   border-top-left-radius: 35px;
   width: 100%;
@@ -368,18 +380,19 @@ i {
   opacity: 0.97;
   -webkit-backdrop-filter: blur(22px);
   backdrop-filter: blur(22px);
-  background-color: rgba(200, 231, 250, 0.18);
+  background-color: rgba(255, 255, 255, 0.19);
   animation: main-services-bg .7s ;
   /* transition: linear 1s; */
 }
 
 
 .product-bg {
+
   -webkit-backdrop-filter: blur(22px);
   backdrop-filter: blur(22px);
-  background-color: rgba(200, 231, 250, 0.53);
+  background-color: rgba(255, 255, 255, 0.19);
 
-  top: -25%;
+  top: -21%;
 
   position: relative;
   border-top-left-radius: 35px;
@@ -394,9 +407,9 @@ i {
 .main-services-bg-2 {
   -webkit-backdrop-filter: blur(22px);
   backdrop-filter: blur(22px);
-  background-color: rgba(200, 231, 250, 0.53);
+  background-color: rgba(255, 255, 255, 0.19);
 
-  top: 2.75%;
+  top: 5.3%;
   animation: product-bg .7s ;
   position: relative;
   border-top-left-radius: 35px;
@@ -414,7 +427,7 @@ i {
 
 .product-bg-2 {
   animation: main-services-bg .7s ;
-  top: -29.6%;
+  top: -26.1%;
   right: -3%;
   border-top-left-radius: 35px;
   width: 100%;
@@ -422,7 +435,7 @@ i {
   opacity: 0.97;
   -webkit-backdrop-filter: blur(22px);
   backdrop-filter: blur(22px);
-  background-color: rgba(200, 231, 250, 0.18);
+  background-color: rgba(255, 255, 255, 0.19);
   /* transition: linear 1s; */
   
 }
@@ -482,7 +495,7 @@ i {
 
 .xx {
   position: absolute;
-  top: 380.5px;
+  top: 372.5px;
   right: 0%;
   /* background-color: red; */
   z-index: 100;
@@ -492,7 +505,7 @@ i {
 
 .yy {
   position: absolute;
-  top: 465px;
+  top: 469px;
   right: 0%;
   /* background-color: red; */
   z-index: 100;
@@ -502,10 +515,9 @@ i {
   
   width: 163px;
   height: 31px;
- 
- 
   border-radius: 38px;
-  background-color: rgba(146, 39, 143, 0.2);
+  border: solid 1px #ffffff;
+  background-color: transparent;
  
   margin-right: 200px;
 }
@@ -520,6 +532,7 @@ i {
   letter-spacing: -0.04px;
   color: #ffffff;
   text-transform: capitalize;
+ 
 }
 
 
@@ -556,7 +569,8 @@ i {
   width: 197px;
   height: 41px;
   border-radius: 38px;
-  background-color: rgba(146, 39, 143, 0.2);
+  background-color: transparent;
+  border: 1px solid #fff;
   
   margin-right: 160px;
 }
@@ -692,7 +706,8 @@ i {
 .main-services .circle-active {
   width: 10px;
   height: 10px;
-  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 0.61;
+  background-color: rgba(0, 0, 0, 0.42);
   border-radius: 100%;
   margin: 0 10px 0 -20px;
 }
@@ -710,7 +725,7 @@ i {
 .products .circle-active {
   width: 15px;
   height: 15px;
-  background-color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.31);
   border-radius: 100%;
   margin: 0 1rem;
 
@@ -718,6 +733,7 @@ i {
 
 i {
   transition: ease 0.8s;
+  color: #fff;
 }
 
 i:hover {

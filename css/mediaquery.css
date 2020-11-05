@@ -1,4 +1,4 @@
-@media screen and (min-width:1025px) and (max-width:1892px){
+@media screen and (min-width:1028px) and (max-width:1892px){
     .credit-top .percent span {
         font-size: 60px;
 
@@ -29,8 +29,74 @@
 
 
 
-@media screen and (min-width:768px) and (max-width:1024px){
- 
+@media screen and (min-width:768px) and (max-width:1025px){
+    .top-svg {
+        left: 3.1%;
+       }
+     .online-services h2 {
+         font-size: 15px;
+         text-align: center;
+     }  
+    
+     .online-services .aply .items {
+         margin-left: 20px;
+         width: 35px;
+         height: 35px;
+     }
+     .online-services .aply-bottom  {
+         margin-left: 5px !important;
+     }
+     .online-services .aply-bottom a {
+         font-size: 10px;
+     }
+     .contact hr {
+         width: 80%;
+     }
+
+     .contact h5 {
+         width: 80%;
+         font-size: 10px;
+        object-fit: contain;
+        margin-left: 20px;
+     }
+     .kredit .pay {
+        width: 141%;
+        height: 115%;
+     }
+     .kredit .kredit-left h5 {
+        font-size: 21px;
+     }
+
+     .kredit .kredit-left  h2 {
+        font-size: 30px;
+     }
+     .credit-top h6 {
+         font-size: 11px !important;
+     }
+     .credit-top h5 {
+         font-size: 17px !important;
+     }
+     .percent span {
+        font-size: 35px !important;
+     }
+
+     .percent h2{
+        font-size: 55px !important;
+     }
+     .credit-bottom p {
+        width: 100%;
+        margin-top: 5px !important;
+        margin-left: -10px !important;
+        font-size: 11px !important;
+     }
+     .credit-bottom {
+        width: 100%;
+        margin-left: -15px;
+        margin-top: 5px;
+    }
+    .credit-top .percent {
+        padding-right: 35px;
+    }
 
  }
 
