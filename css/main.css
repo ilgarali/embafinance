@@ -373,7 +373,7 @@ i {
   border-top-left-radius: 35px;
   width: 102%;
   height: 452px;
-  animation: product-bg .7s ;
+  animation: product-bg 1s ;
   /* transition: linear 1s; */
 }
 
@@ -385,7 +385,7 @@ i {
   background-color: rgba(200, 231, 250, 0.53);
 
   top: 2.75%;
-  animation: product-bg .7s ;
+  animation: product-bg 1s ;
   position: relative;
   border-top-left-radius: 35px;
   width: 102%;

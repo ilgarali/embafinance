@@ -104,3 +104,74 @@
  @media only screen and (max-width: 600px) {
     
 }
+
+
+@media screen and (min-width:2222px) and (max-width:2565px){
+
+
+   .top-svg {
+    left: 62px;
+   }
+
+   .services {
+       height: 85vh;
+       align-items: flex-start !important;
+   }
+   .kredit {
+       height: 50vh;
+   }
+   .kredit-right {
+       padding-right: 400px;
+   }
+   .pay {
+       height: 110%;
+   }
+   .faiz {
+    margin-top: 13%;
+    font-size: 40px;
+   }
+   .kredit h2 {
+       font-size: 65px;
+       width: 100%;
+   }
+   .online-services {
+       margin-top: 20%;
+   }
+
+   .services h2 {
+       font-size: 42px;
+   }
+   .items {
+       width: 65px;
+       height: 65px;
+   }
+
+   .services .aply-bottom a
+   {
+    width: 224.5px;
+    margin-top: -20px;
+    font-size: 25px;
+   }
+   .kredit-left .aply {
+       margin-top: 5%;
+   }
+   .contact {
+       padding-top: 70% !important;
+   }
+   .services .aply {
+       margin: 3rem 0 !important;
+   }
+   .main-services-bg {
+       top: 1%;
+   }
+   .product-bg {
+       top: -21%;
+   }
+   .main-services-bg-2 {
+       top: 3.75%;
+   }
+   .product-bg-2 {
+       top: -25.6%;
+   }
+}
+
