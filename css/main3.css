@@ -65,37 +65,23 @@
   
 
 
-  /* body {
-    background-color: black !important;
-  }
-   */
-  
 
   .dropdown-toggle::after {
     display: inline-block;
     margin-left: 0.155em !important;
     vertical-align: 0.155em !important;
   }
-/* 
-  .blur {
- 
-    filter: blur(63px);
-    background-color: rgba(0, 145, 198, 0.2);
-    min-height: 100vh;
-    position: relative;
-  
-   
-  } */
+
 
 body {
 
   height: 100vh;
-  overflow-y: hidden;
+
   overflow: hidden !important;
 }
 
   .main {
- 
+    margin-top: -5px;
     background-image: url('../img/group-17@3x.png');
     background-repeat: no-repeat;
     background-size: cover;
