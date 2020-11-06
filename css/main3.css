@@ -63,12 +63,7 @@
     fill: #fff !important;
   }
   
-  .main {
-  
-    -webkit-backdrop-filter: blur(50px);
-    backdrop-filter: blur(50px);
-    background-color: rgba(0, 145, 198, 0.04);
-  }
+
 
   /* body {
     background-color: black !important;
@@ -502,7 +497,7 @@ i {
   right: 0%;
   /* background-color: red; */
   z-index: 100;
-
+  right: 59px;
 }
 
 
@@ -512,6 +507,7 @@ i {
   right: 0%;
   /* background-color: red; */
   z-index: 100;
+  right: 58px;
 }
 
 .main-services .header .header-right div {
