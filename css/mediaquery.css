@@ -125,6 +125,9 @@
    }
    .pay {
        height: 110%;
+       margin-top: 135px !important;
+       /* margin-left: -52px; */
+       margin-right: -100px !important;
    }
    .faiz {
     margin-top: 13%;
@@ -132,7 +135,7 @@
    }
    .kredit h2 {
        font-size: 65px;
-       width: 100%;
+       width: 80%;
    }
    .online-services {
        margin-top: 20%;
