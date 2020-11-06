@@ -1,5 +1,6 @@
 const mainService = document.querySelector('#main-service')
 const product = document.querySelector('#product')
+const v3 = document.querySelector('.v-3')
 let check = true
 
 
@@ -35,6 +36,11 @@ const changeMain = () => {
         mainItems.style.opacity = 1;
         productItems.style.opacity = 0;
         check =false;
+        
+        if (v3) {
+            mainService.classList.add('m-v3')
+            product.classList.add('p-v3')
+        }
     }
     else {
 
@@ -58,6 +64,12 @@ const changeMain = () => {
         mainItems.style.opacity = 0;
         productItems.style.opacity = 1;
         check =true;
+
+           
+        if (v3) {
+            mainService.classList.remove('m-v3')
+            product.classList.remove('p-v3')
+        }
     }
 }
 

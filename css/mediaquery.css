@@ -211,6 +211,23 @@
        top: 762px;
    }
 
+   .credit-top h6 {
+       font-size: 18px;
+   }
+
+   .credit-bottom {
+       margin-left: 5px;
+   }
+   .titles {
+       margin-left: -10px;
+   }
+
+   .m-v3{
+       top: 8.3% !important;
+   }
+   .p-v3 {
+    top: -24.5% !important;
+   }
    
 }
 
