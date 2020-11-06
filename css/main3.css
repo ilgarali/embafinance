@@ -101,11 +101,12 @@ body {
 
   .main {
  
-    background-image: url('../img/group-17.png');
+    background-image: url('../img/group-17@3x.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 105vh;
     overflow: hidden;
+    width: 103%;
     
   }
   .holder {

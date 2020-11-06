@@ -140,6 +140,7 @@
 
    .kredit .b-kredit-v3 {
        font-size: 132px !important;
+       width: 95%;
    }
 
    .services h2 {
@@ -172,10 +173,10 @@
        top: -18%;
    }
    .main-services-bg-2 {
-       top: 7.5%;
+       top: 8%;
    }
    .product-bg-2 {
-       top: -23.4%;
+       top: -24.04%;
    }
    .kredit-left-v3 {
        padding: 0 !important;
@@ -196,19 +197,23 @@
    }
 
    .yy-v3 {
-    top: 813px !important;
+    top: 781px !important;
+    /* background: red; */
+    right: 76px;
    }
    .xx-v3
    {
        
-    top: 696px !important;
+    top: 657px !important;
+    /* background: red; */
+    right: 76px;
 
    }
    .yy {
-       top: 867px;
+       top: 834px;
    }
    .xx {
-       top: 762px;
+       top: 721px;
    }
 
    .credit-top h6 {
@@ -225,10 +230,10 @@
    }
 
    .m-v3{
-       top: 8.3% !important;
+       top: 8.9% !important;
    }
    .p-v3 {
-    top: -24.5% !important;
+    top: -25% !important;
    }
 
    .credit-top h5 {
