@@ -221,9 +221,9 @@
    }
 
    .credit-bottom {
-       margin-left: 10px;
-       margin-top: 5px;
-       width: 83%;
+    margin-left: -5px;
+    margin-top: 10px;
+    width: 83%;
    }
    .titles {
        margin-left: -10px;
@@ -238,6 +238,20 @@
 
    .credit-top h5 {
        width: 80%;
+       
+   }
+   .istehlak {
+       width: 80%;
+       height: 110%;
+   }
+
+   .lombard {
+       width: 80%;
+       height: 110%;
+   }
+   .cart {
+    width: 80%;
+    height: 110%;
    }
    
 }
