@@ -138,6 +138,10 @@
        margin-top: 20%;
    }
 
+   .kredit .b-kredit-v3 {
+       font-size: 132px !important;
+   }
+
    .services h2 {
        font-size: 42px;
    }
@@ -172,6 +176,33 @@
    }
    .product-bg-2 {
        top: -24.6%;
+   }
+   .kredit-left-v3 {
+       padding: 0 !important;
+   }
+   .kredit-v3 {
+  
+    margin-left: 7%;
+   }
+   .faiz-v3 {
+       margin-top: 6%;
+   }
+
+   .kredit .apply {
+       width: 200px;
+       height: 50px;
+       font-size: 21px;
+       margin-top: 2%;
+   }
+
+   .yy-v3 {
+    top: 813px;
+   }
+   .xx-v3
+   {
+       
+    top: 697.5px;
+
    }
 }
 
