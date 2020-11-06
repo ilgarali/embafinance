@@ -172,10 +172,10 @@
        top: -18%;
    }
    .main-services-bg-2 {
-       top: 5.75%;
+       top: 7.5%;
    }
    .product-bg-2 {
-       top: -24.6%;
+       top: -23.4%;
    }
    .kredit-left-v3 {
        padding: 0 !important;
@@ -196,13 +196,21 @@
    }
 
    .yy-v3 {
-    top: 813px;
+    top: 813px !important;
    }
    .xx-v3
    {
        
-    top: 697.5px;
+    top: 696px !important;
 
    }
+   .yy {
+       top: 867px;
+   }
+   .xx {
+       top: 762px;
+   }
+
+   
 }
 
