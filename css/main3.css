@@ -70,10 +70,10 @@
     background-color: rgba(0, 145, 198, 0.04);
   }
 
-  body {
+  /* body {
     background-color: black !important;
   }
-  
+   */
   
 
   .dropdown-toggle::after {
@@ -101,7 +101,7 @@ body {
 
   .main {
  
-    background-image: url('../img/bitmap.png');
+    background-image: url('../img/group-17.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 105vh;
@@ -109,7 +109,7 @@ body {
     
   }
   .holder {
-    background-color: rgba(0,0,0,.6);
+    
   }
 
   .navigation {
