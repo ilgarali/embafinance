@@ -96,7 +96,7 @@ body {
 
   height: 100vh;
   overflow-y: hidden;
-  
+  overflow: hidden !important;
 }
 
   .main {
@@ -105,8 +105,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 105vh;
-    overflow: hidden;
-  
+    width: 103%;
+    overflow: hidden !important;
     
   }
 
