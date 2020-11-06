@@ -69,6 +69,10 @@
     backdrop-filter: blur(50px);
     background-color: rgba(0, 145, 198, 0.04);
   }
+
+  body {
+    background-color: black !important;
+  }
   
   
 
