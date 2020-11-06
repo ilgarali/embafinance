@@ -106,12 +106,10 @@ body {
     background-size: cover;
     height: 105vh;
     overflow: hidden;
-    width: 103%;
+    width: 100%;
     
   }
-  .holder {
-    
-  }
+
 
   .navigation {
     width: 93%;
