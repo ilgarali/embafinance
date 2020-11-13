@@ -25,11 +25,24 @@
    .kredit .kredit-left {
     padding: 50px 0 0 70px;
   }
+ 
 }
 
 
 
 @media screen and (min-width:768px) and (max-width:1025px){
+    /* body {
+        overflow-y: auto !important;
+    }
+    .main {
+        overflow-y: auto !important;
+    } */
+    .navigation {
+        width: 94.5% !important;
+    }
+    .navbar-nav {
+        flex-direction: row !important;
+    }
     .top-svg {
         left: 3.1%;
        }
@@ -64,24 +77,25 @@
         height: 115%;
      }
      .kredit .kredit-left h5 {
-        font-size: 21px;
+        font-size: 19px;
      }
 
      .kredit .kredit-left  h2 {
-        font-size: 30px;
+        font-size: 40px;
+        width: 100%;
      }
      .credit-top h6 {
-         font-size: 11px !important;
+         font-size: 10px !important;
      }
      .credit-top h5 {
-         font-size: 17px !important;
+         font-size: 15px !important;
      }
      .percent span {
-        font-size: 35px !important;
+        font-size: 30px !important;
      }
 
      .percent h2{
-        font-size: 55px !important;
+        font-size: 50px !important;
      }
      .credit-bottom p {
         width: 100%;
@@ -97,7 +111,80 @@
     .credit-top .percent {
         padding-right: 35px;
     }
+    .xx,.yy {
+        right: 0% !important;
+    }
+    .xx {
+        top: 237px;
+    }
+    .yy {
+        top: 307px;
+    }
 
+    .main-services-bg {
+        top: -6%;
+    }
+    .product-bg {
+        top: -31%;
+    }
+    .product-bg-2 {
+        top: -34.8%;
+    }
+    .main-services-bg-2 {
+        top: -2.95%;
+    }
+
+    .main-services .header .header-right div {
+        width: 22vw;
+     
+    
+        margin-right: 0px !important;
+    }
+    .main-services .header h1 {
+        font-size: 12px;
+    }
+    .products {
+        padding-left: 0px !important;
+    }
+    .products .header h1 {
+        font-size: 17px;
+    }
+
+    .products .header .header-right div {
+        width: 22vw;
+     
+    
+        margin-right: 0px !important;
+        white-space: nowrap;
+    }
+    .products .header .header-right div a {
+        font-size: 10px;
+    }
+    
+    .istehlak,.lombard,.cart {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .body .col-md-4 {
+        margin: 10px 0 ;
+    }
+ 
+    .credit-top h6 {
+        font-size: 11px;
+    }
+    .credit-top h5 {
+        font-size: 15px;
+    }
+    .credit-top .percent span {
+        font-size: 30px;
+    }
+    .credit-top .percent h2 {
+        font-size: 90px;
+    }
+    .credit-bottom p {
+        margin-top: -20px;
+        width: 100%;
+    }
  }
 
 
