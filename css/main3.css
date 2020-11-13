@@ -82,14 +82,32 @@ body {
 
   .main {
     margin-top: -5px;
-    background-image: url('../img/group-17@3x.png');
+    
     background-repeat: no-repeat;
     background-size: cover;
     height: 105vh;
     width: 103%;
     overflow: hidden !important;
+    background-image: url('../img/group-17@3x.png');
+    transition: background 3s;
+
+    /* animation: fade 20s infinite; */
     
   }
+
+  
+/* @keyframes fade {
+  0% {background-image: url('../img/group-17@3x.png');}
+  
+  50% {
+    background-image: url('../img/team.png');
+  }
+  100% {
+    background-image: url('../img/about.png');
+  }
+
+} */
+
 
 
   .navigation {
@@ -489,7 +507,7 @@ i {
 
 .yy {
   position: absolute;
-  top: 469px;
+  top: 468px;
   right: 0%;
   /* background-color: red; */
   z-index: 100;
