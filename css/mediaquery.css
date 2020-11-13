@@ -30,7 +30,7 @@
 
 
 
-@media screen and (min-width:768px) and (max-width:1825px){
+@media screen and (min-width:768px) and (max-width:1025px){
     /* body {
         overflow-y: auto !important;
     }
@@ -186,6 +186,166 @@
         width: 100%;
     }
  }
+
+
+ @media screen and (min-width:1025px) and (max-width:1825px){
+    /* body {
+        overflow-y: auto !important;
+    }
+    .main {
+        overflow-y: auto !important;
+    } */
+    .navigation {
+        width: 94.5% !important;
+    }
+    .navbar-nav {
+        flex-direction: row !important;
+    }
+    .top-svg {
+        left: 3.1%;
+       }
+     .online-services h2 {
+         font-size: 20px;
+         text-align: center;
+     }  
+    
+     .online-services .aply .items {
+         margin-left: 20px;
+         width: 35px;
+         height: 35px;
+     }
+     .online-services .aply-bottom  {
+         margin-left: 5px !important;
+     }
+     .online-services .aply-bottom a {
+         font-size: 15px;
+     }
+     .contact hr {
+         width: 80%;
+     }
+
+     .contact h5 {
+         width: 80%;
+         font-size: 15px;
+        object-fit: contain;
+        margin-left: 20px;
+     }
+     .kredit .pay {
+        width: 141%;
+        height: 115%;
+     }
+     .kredit .kredit-left h5 {
+        font-size: 24px;
+     }
+
+     .kredit .kredit-left  h2 {
+        font-size: 45px;
+        width: 100%;
+     }
+     .credit-top h6 {
+         font-size: 15px !important;
+     }
+     .credit-top h5 {
+         font-size: 20px !important;
+     }
+     .percent span {
+        font-size: 35px !important;
+     }
+
+     .percent h2{
+        font-size: 55px !important;
+     }
+     .credit-bottom p {
+        width: 100%;
+        margin-top: 5px !important;
+        margin-left: -10px !important;
+        font-size: 11px !important;
+     }
+     .credit-bottom {
+        width: 100%;
+        margin-left: -15px;
+        margin-top: 5px;
+    }
+    .credit-top .percent {
+        padding-right: 35px;
+    }
+    .xx,.yy {
+        right: 0% !important;
+    }
+    .xx {
+        top: 237px;
+    }
+    .yy {
+        top: 307px;
+    }
+
+    .main-services-bg {
+        top: -6%;
+    }
+    .product-bg {
+        top: -31%;
+    }
+    .product-bg-2 {
+        top: -34.8%;
+    }
+    .main-services-bg-2 {
+        top: -2.95%;
+    }
+
+    .main-services .header .header-right div {
+        width: 22vw;
+     
+    
+        margin-right: 0px !important;
+    }
+    .main-services .header h1 {
+        font-size: 17px;
+    }
+    .products {
+        padding-left: 0px !important;
+    }
+    .products .header h1 {
+        font-size: 19px;
+    }
+
+    .products .header .header-right div {
+        width: 22vw;
+     
+    
+        margin-right: 0px !important;
+        white-space: nowrap;
+    }
+    .products .header .header-right div a {
+        font-size: 15px;
+    }
+    
+    .istehlak,.lombard,.cart {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .body .col-md-4 {
+        margin: 10px 0 ;
+    }
+ 
+    .credit-top h6 {
+        font-size: 15px;
+    }
+    .credit-top h5 {
+        font-size: 19px;
+    }
+    .credit-top .percent span {
+        font-size: 35px;
+    }
+    .credit-top .percent h2 {
+        font-size: 95px;
+    }
+    .credit-bottom p {
+        margin: -20px auto auto auto;
+        width: 80%;
+
+    }
+ }
+
 
 
  @media only screen and (max-width: 600px) {
