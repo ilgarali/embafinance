@@ -189,6 +189,15 @@
 
 
  @media only screen and (max-width: 600px) {
+    .nav-border {
+        width: 89%;
+    }
+     .nav-item {
+         margin-left: -1px !important;
+     }
+     .dropdown {
+        margin-left: -15px !important;
+     }
      body {
          overflow-y: auto !important;
          overflow-x: hidden !important;
