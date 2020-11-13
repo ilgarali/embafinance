@@ -81,6 +81,100 @@ product.addEventListener('click',changeMain)
 
 
 
+
+
+const circle = document.querySelector('.circle > g')
+const circleS = document.querySelector('.circle-1 > g')
+const circleT = document.querySelector('.circle-2 > g')
+if (circle) {
+    circle.style.fillOpacity = 1
+circle.style.transition = "ease-in 1.5s"
+circleS.style.fillOpacity = 1
+circleS.style.transition = "ease-out 1.7s"
+
+circleT.style.fillOpacity = 1
+circleT.style.transition = "ease-in-out 2s"
+setTimeout(() => {
+    circle.style.fillOpacity = 0.26
+    circleS.style.fillOpacity = 0.26
+    circleT.style.fillOpacity = 0.26
+}, 2000);
+
+}
+
+
+
+
+
+const ovalF = document.querySelector('.oval-1')
+const ovalS = document.querySelector('.oval-2')
+const ovalT = document.querySelector('.oval-3')
+
+if (ovalF) {
+    const changePos = (e) => {
+         
+         
+        let _mouseX = e.clientX /8;
+        let _mouseY = e.clientY / 5
+        ovalF.style.left = `-${_mouseX + 5}px`
+        ovalF.style.top = `${_mouseY + 5}px`
+        ovalS.style.right = `-${_mouseX / 5}px`
+        ovalS.style.top = `${_mouseY / 5}px`
+        ovalT.style.right = `-${_mouseX}px`
+        ovalT.style.top = `${_mouseY}px`
+                
+    }
+    
+    window.addEventListener('mousemove',changePos)
+}
+
+
+
+
+const drawer = document.querySelector('#drawer')
+
+
+function openSideDrawer() {
+    document.getElementById("side-drawer").style.right = "0";
+    document.getElementById("side-drawer-void").classList.add("d-block");
+    document.getElementById("side-drawer-void").classList.remove("d-none");
+  }
+  
+  function closeSideDrawer() {
+    document.getElementById("side-drawer").style.right = "-1036px";
+    document.getElementById("side-drawer-void").classList.add("d-none");
+    document.getElementById("side-drawer-void").classList.remove("d-block");
+  }
+
+
+var bgImageArray = ["group-17@3x.png", "team.png", "about.png"],
+base = "./img/",
+secs = 4;
+bgImageArray.forEach(function(img){
+    new Image().src = base + img; 
+    // caches images, avoiding white flash between background replacements
+});
+
+function backgroundSequence() {
+window.clearTimeout();
+var k = 0;
+for (i = 0; i < bgImageArray.length; i++) {
+setTimeout(function(){ 
+document.getElementById('animated-bg').style.background = "url(" + base + bgImageArray[k] + ") no-repeat center center";
+document.getElementById('animated-bg').style.backgroundSize ="cover";
+if ((k + 1) === bgImageArray.length) { setTimeout(function() { backgroundSequence() }, (secs * 1000))} else { k++; }
+}, (secs * 1000) * i)
+}
+}
+backgroundSequence();
+
+
+const windowSize = window.innerWidth
+
+
+
+if (windowSize > 600) {
+    
 ScrollReveal().reveal('.aply-1',{
     origin:'left',
     distance:'5rem',
@@ -157,87 +251,4 @@ ScrollReveal().reveal('.discount',{
     easing:'ease-in'
 });
 
-
-
-const circle = document.querySelector('.circle > g')
-const circleS = document.querySelector('.circle-1 > g')
-const circleT = document.querySelector('.circle-2 > g')
-if (circle) {
-    circle.style.fillOpacity = 1
-circle.style.transition = "ease-in 1.5s"
-circleS.style.fillOpacity = 1
-circleS.style.transition = "ease-out 1.7s"
-
-circleT.style.fillOpacity = 1
-circleT.style.transition = "ease-in-out 2s"
-setTimeout(() => {
-    circle.style.fillOpacity = 0.26
-    circleS.style.fillOpacity = 0.26
-    circleT.style.fillOpacity = 0.26
-}, 2000);
-
 }
-
-
-
-
-
-const ovalF = document.querySelector('.oval-1')
-const ovalS = document.querySelector('.oval-2')
-const ovalT = document.querySelector('.oval-3')
-
-if (ovalF) {
-    const changePos = (e) => {
-         
-         
-        let _mouseX = e.clientX /8;
-        let _mouseY = e.clientY / 5
-        ovalF.style.left = `-${_mouseX + 5}px`
-        ovalF.style.top = `${_mouseY + 5}px`
-        ovalS.style.right = `-${_mouseX / 5}px`
-        ovalS.style.top = `${_mouseY / 5}px`
-        ovalT.style.right = `-${_mouseX}px`
-        ovalT.style.top = `${_mouseY}px`
-                
-    }
-    
-    window.addEventListener('mousemove',changePos)
-}
-
-
-const drawer = document.querySelector('#drawer')
-
-
-function openSideDrawer() {
-    document.getElementById("side-drawer").style.right = "0";
-    document.getElementById("side-drawer-void").classList.add("d-block");
-    document.getElementById("side-drawer-void").classList.remove("d-none");
-  }
-  
-  function closeSideDrawer() {
-    document.getElementById("side-drawer").style.right = "-1036px";
-    document.getElementById("side-drawer-void").classList.add("d-none");
-    document.getElementById("side-drawer-void").classList.remove("d-block");
-  }
-
-
-var bgImageArray = ["group-17@3x.png", "team.png", "about.png"],
-base = "./img/",
-secs = 4;
-bgImageArray.forEach(function(img){
-    new Image().src = base + img; 
-    // caches images, avoiding white flash between background replacements
-});
-
-function backgroundSequence() {
-window.clearTimeout();
-var k = 0;
-for (i = 0; i < bgImageArray.length; i++) {
-setTimeout(function(){ 
-document.getElementById('animated-bg').style.background = "url(" + base + bgImageArray[k] + ") no-repeat center center";
-document.getElementById('animated-bg').style.backgroundSize ="cover";
-if ((k + 1) === bgImageArray.length) { setTimeout(function() { backgroundSequence() }, (secs * 1000))} else { k++; }
-}, (secs * 1000) * i)
-}
-}
-backgroundSequence();

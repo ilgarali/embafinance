@@ -102,7 +102,122 @@
 
 
  @media only screen and (max-width: 600px) {
+     body {
+         overflow-y: auto !important;
+     }
+     .main {
+         overflow-y: auto !important;
+     }
+     .navigation {
+         width: 100% !important;
+     }
+     .navbar {
+         display: block !important;
+     }
+     .navbar-nav {
+         margin: 20px 0 0 0 !important;
+         flex-direction: row !important;
+
+     }
+     #side-drawer {
+        height: 100vh;
+        width: 55vw;
+     }
+     .navigation .cabinet {
+         border: none;
+     }
+     .kredit {
+         width: 100%;
+         margin-top: 0px !important;
+     }
+     .kredit .kredit-left {
+         padding: 2rem;
+     }
+     .kredit h2 {
+         width: 100%;
+         font-size:50px;
+     }
+     .xx {
+         display: none;
+     }
+     .yy {
+         display: none;
+     }
+     .main-services-bg {
+         top: 6%;
+         height: 31%;
+     }
+     .product-bg-2 {
+         top: -43%;
+         height: 50%;
+     }
+
+     .main-services-bg-2 {
+         top: 11%;
+         height: 50%;
+     }
+
+     .product-bg {
+        top: -21%;
+        height: 50%;
+    }
+     /* .header {
+         display: block !important;
+     } */
+     .main-services .header .header-right div {
+        width: 42vw;
+     
     
+        margin-right: 0px !important;
+    }
+    .main-services .header h1 {
+        font-size: 14px;
+    }
+    .products {
+        padding-left: 0px !important;
+    }
+    .products .header h1 {
+        font-size: 17px;
+    }
+
+    .products .header .header-right div {
+        width: 40vw;
+     
+    
+        margin-right: 0px !important;
+        white-space: nowrap;
+    }
+    .products .header .header-right div a {
+        font-size: 10px;
+    }
+    
+    .istehlak,.lombard,.cart {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .body .col-md-4 {
+        margin: 10px 0 ;
+    }
+ 
+    .credit-top h6 {
+        font-size: 11px;
+    }
+    .credit-top h5 {
+        font-size: 18px;
+    }
+    .credit-top .percent span {
+        font-size: 40px;
+    }
+    .credit-top .percent h2 {
+        font-size: 90px;
+    }
+    .credit-bottom p {
+        margin-top: -20px;
+        width: 100%;
+    }
+    .nav-item {
+        font-size: 14px !important;
+    }
 }
 
 

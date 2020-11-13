@@ -80,6 +80,10 @@ body {
   overflow: hidden !important;
 }
 
+.navbar-nav-2 {
+  list-style: none;
+}
+
   .main {
     margin-top: -5px;
     
