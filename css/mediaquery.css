@@ -1,4 +1,4 @@
-@media screen and (min-width:1028px) and (max-width:1892px){
+/* @media screen and (min-width:1028px) and (max-width:1892px){
     .credit-top .percent span {
         font-size: 60px;
 
@@ -26,11 +26,11 @@
     padding: 50px 0 0 70px;
   }
  
-}
+} */
 
 
 
-@media screen and (min-width:768px) and (max-width:1025px){
+@media screen and (min-width:768px) and (max-width:1825px){
     /* body {
         overflow-y: auto !important;
     }
